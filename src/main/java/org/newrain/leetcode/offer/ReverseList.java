@@ -8,7 +8,7 @@ package org.newrain.leetcode.offer;
  * null<-2<-4<-5
  */
 
-import org.newrain.leetcode.practise.linkedlist.ListNode;
+import org.newrain.leetcode.problem.linkedlist.ListNode;
 
 public class ReverseList {
 

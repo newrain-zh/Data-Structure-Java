@@ -1,6 +1,6 @@
 package org.newrain.leetcode.offer;
 
-import org.newrain.leetcode.practise.linkedlist.ListNode;
+import org.newrain.leetcode.problem.linkedlist.ListNode;
 
 import java.util.Arrays;
 import java.util.Stack;
