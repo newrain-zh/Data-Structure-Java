@@ -63,7 +63,8 @@ public class CustomHashMap<K, V> {
             capacity <<= 1;
 
         }
-        // 设置“加载因子”
+        // 设置“加载因子
+        // ”
         this.loadFactor = loadFactor;
         // 设置“HashMap阈值”，当HashMap中存储数据的数量达到threshold时，就需要将HashMap的容量加倍。
         threshold = (int) (capacity * loadFactor);
