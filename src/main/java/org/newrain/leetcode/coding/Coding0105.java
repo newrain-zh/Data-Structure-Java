@@ -6,7 +6,7 @@ package org.newrain.leetcode.coding;
  *
  * @author newRain
  * @description 一次编辑
- * @See <a href="https://leetcode.cn/problems/one-away-lcci"></a>
+ * @link <a href="https://leetcode.cn/problems/one-away-lcci"></a>
  */
 public class Coding0105 {
 

@@ -18,14 +18,18 @@ public class LeetCode541 {
         if (k == s.length()) {
             return new StringBuilder(s).reverse().toString();
         }
-
-        for (int i = 0; i < s.length(); i++) {
+        int pos = 0;
+        StringBuilder str = new StringBuilder();
+        StringBuilder curr = new StringBuilder();
+        for (int i = pos; i < s.length(); i++) {
+            if (pos == 2 * k) {
+                str.append(curr.append(s.substring(i - k, i)).reverse());
+                curr = new StringBuilder();
+                pos = 1;
+            }
+            pos++;
         }
-
-        String substring = s.substring(0, k);
-        String substring1 = s.substring(k);
-        System.out.println(substring1);
-        return new StringBuilder(substring).reverse().append(substring1).toString();
+        return str.toString();
     }
 
     public static void main(String[] args) {

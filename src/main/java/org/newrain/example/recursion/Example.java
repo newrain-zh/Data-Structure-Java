@@ -15,6 +15,8 @@ package org.newrain.example.recursion;
  * <p>输入: 1 输出: "1" 示例 2:
  *
  * <p>输入: 4 输出: "1211"
+ *
+ * @author newRain
  */
 public class Example {
 

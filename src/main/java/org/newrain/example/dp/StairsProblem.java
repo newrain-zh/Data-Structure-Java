@@ -15,6 +15,7 @@ import java.util.Map;
  * .
  * .
  * fn = f(n-1)+f(fn-2)
+ * @author zhiqin.zhang
  */
 public class StairsProblem {
 

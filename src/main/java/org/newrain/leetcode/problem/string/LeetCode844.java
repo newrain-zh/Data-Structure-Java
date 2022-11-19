@@ -4,6 +4,7 @@ package org.newrain.leetcode.problem.string;
  * @author newRain
  * @description 比较含退格的字符串
  * @link <a href="https://leetcode.cn/problems/backspace-string-compare/"><a/>
+ * @complexity simle
  */
 public class LeetCode844 {
 

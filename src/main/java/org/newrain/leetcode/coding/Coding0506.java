@@ -4,7 +4,7 @@ package org.newrain.leetcode.coding;
  * @author newRain
  * @link <a href="https://leetcode.cn/problems/convert-integer-lcci">leetcode</a>
  */
-public class LeetCode0506 {
+public class Coding0506 {
 
     public int convertInteger1(int a, int b) {
         //位异或

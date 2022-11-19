@@ -1,9 +1,10 @@
 package org.newrain.leetcode.problem.string;
 
 /**
- * 最长回文字符串
  *
+ * @description 最长回文字符串
  * @author newrain
+ * @link <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">...</a>
  */
 public class LeetCode5 {
 
