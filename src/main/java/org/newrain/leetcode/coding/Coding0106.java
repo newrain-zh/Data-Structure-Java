@@ -1,8 +1,5 @@
 package org.newrain.leetcode.coding;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * 字符串压缩。利用字符重复出现的次数，
  * 编写一种方法，实现基本的字符串压缩功能。
@@ -12,7 +9,7 @@ import java.util.List;
  *
  * @author newrain
  * @description 字符串压缩
- * @see <a href="https://leetcode.cn/problems/compress-string-lcci"></a>
+ * @link <a href="https://leetcode.cn/problems/compress-string-lcci"></a>
  */
 public class Coding0106 {
 
@@ -43,7 +40,9 @@ public class Coding0106 {
     }
 
     public static void main(String[] args) {
-        System.out.println(compressString("aabcccccaaa"));//a2b1c5a3
-        System.out.println(compressString("abbccd"));//a1b2c2d1
+        //a2b1c5a3
+        System.out.println(compressString("aabcccccaaa"));
+        //a1b2c2d1
+        System.out.println(compressString("abbccd"));
     }
 }

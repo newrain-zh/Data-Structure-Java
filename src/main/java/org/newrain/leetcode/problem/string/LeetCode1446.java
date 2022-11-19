@@ -22,7 +22,7 @@ public class LeetCode1446 {
             } else {
                 cnt = 0;
             }
-            maxLen = maxLen > cnt + 1 ? maxLen : cnt + 1;
+            maxLen = Math.max(maxLen, cnt + 1);
 
         }
         return maxLen;

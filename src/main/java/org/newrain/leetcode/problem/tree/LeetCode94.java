@@ -3,6 +3,9 @@ package org.newrain.leetcode.problem.tree;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author newRain
+ */
 public class LeetCode94 {
 
 
@@ -14,7 +17,7 @@ public class LeetCode94 {
 
     public void prevOrder(TreeNode root, List<Integer> list) {
         if (root == null) {
-          return;
+            return;
         }
         prevOrder(root.left, list);
         list.add(root.val);

@@ -3,6 +3,9 @@ package org.newrain.leetcode.problem.linkedlist;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author newRain
+ */
 public class LeetCode19 {
 
 

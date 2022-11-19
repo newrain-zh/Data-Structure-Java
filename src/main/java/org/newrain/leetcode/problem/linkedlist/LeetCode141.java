@@ -3,6 +3,9 @@ package org.newrain.leetcode.problem.linkedlist;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * @author newRain
+ */
 public class LeetCode141 {
 
 

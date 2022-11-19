@@ -10,6 +10,7 @@ package org.newrain.leetcode.problem.dp;
  dp[3] = max(2+9,7) = 11 = max (dp[1]+9,dp[2])
  dp[4] = max(2+9,7+3) = 11 = max (dp[2]+3),dp[3]
  dp[5] = max(2+9+1,7+3) = 12 =max(dp[3]+1,dp[4])
+ * @author zhiqin.zhang
  */
 public class LeetCode198 {
 
