@@ -33,7 +33,7 @@ public class LeetCode234 {
         return true;
     }
 
-    /**
+    /**x
      * 递归解法
      */
     private ListNode frontPointer;
