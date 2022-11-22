@@ -3,8 +3,6 @@ package org.newrain.example.sort;
 import java.util.Arrays;
 
 /**
- *
- *
  * @author newRain
  * @description 冒泡排序
  */
