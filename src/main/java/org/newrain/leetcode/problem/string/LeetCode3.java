@@ -10,7 +10,6 @@ import java.util.Map;
  */
 public class LeetCode3 {
 
-
     public static int lengthOfLongestSubstring(String s) {
         //记录所有字符最近出现的位置
         Map<Character, Integer> map = new HashMap<>(s.length());
