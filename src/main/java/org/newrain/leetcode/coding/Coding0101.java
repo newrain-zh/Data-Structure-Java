@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * @author newrain
  * @description 面试题 01.01. 判定字符是否唯一
- * @see <a href="https://leetcode.cn/problems/is-unique-lcci"></a>
+ * @link <a href="https://leetcode.cn/problems/is-unique-lcci"></a>
  */
 public class Coding0101 {
 
