@@ -6,7 +6,6 @@ package org.newrain.leetcode.coding;
  * 比如，字符串aabcccccaaa会变为a2b1c5a3。
  * 若“压缩”后的字符串没有变短，则返回原先的字符串。
  * 你可以假设字符串中只包含大小写英文字母（a至z）。
- *
  * @author newrain
  * @description 字符串压缩
  * @link <a href="https://leetcode.cn/problems/compress-string-lcci"></a>
