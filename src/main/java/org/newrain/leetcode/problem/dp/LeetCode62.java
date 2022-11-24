@@ -1,5 +1,8 @@
 package org.newrain.leetcode.problem.dp;
 
+/**
+ * @author zhiqin.zhang
+ */
 public class LeetCode62 {
 
     public static int uniquePaths(int m, int n) {
