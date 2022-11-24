@@ -2,6 +2,12 @@ package org.newrain.leetcode.problem.array;
 
 import java.util.Arrays;
 
+/**
+ * @author newRain
+ * @description 加一
+ * @complexity easy
+ * @link <a href="https://leetcode.cn/problems/plus-one/">...</a>
+ */
 public class LeetCode66 {
 
     public static int[] plusOne(int[] digits) {
@@ -19,7 +25,7 @@ public class LeetCode66 {
     }
 
     public static void main(String[] args) {
-        int[] ints = plusOne(new int[]{9, 9, 9});
-        System.out.println(Arrays.toString(ints));
+        int[] its = plusOne(new int[]{9, 9, 9});
+        System.out.println(Arrays.toString(its));
     }
 }
