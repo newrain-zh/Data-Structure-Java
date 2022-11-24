@@ -8,9 +8,6 @@ import java.util.List;
 /**
  * @author newRain
  * @link <a href="https://leetcode.cn/problems/combinations/">...</a>
- *
- *
- *
  * @description 组合
  * @complexity middle
  * @tag 递归 回溯 暴力枚举
