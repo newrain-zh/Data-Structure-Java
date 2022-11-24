@@ -1,26 +1,33 @@
 package org.newrain.leetcode.problem.search;
 
+/**
+ * @author newRain
+ * @description 二分查找
+ * @link <a href="https://leetcode.cn/problems/binary-search/">...</a>
+ * @tag 查询
+ * @complexity easy
+ */
 public class LeetCode704 {
 
     public static int search(int[] nums, int target) {
-        if (nums[0] == target) {
-            return 0;
+        if (nums.length == 1) {
+            return nums[0] == target ? 0 : -1;
         }
-        if (nums[nums.length - 1] == target) {
-            return nums.length - 1;
-        }
-        int left = 0;
-        int right = nums.length;
-        while (left < right) {
-            int mid = (left + right) / 2;
+        int low = 0;
+        int high = nums.length - 1;
+        int mid;
+        while (low <= high) {
+//            mid = (low + high) / 2;
+            //此处 是为了避免数组的元素过大，
+            mid = low + (high - low) / 2;
             if (nums[mid] == target) {
                 return mid;
             }
+            //说明数组在左侧
             if (nums[mid] > target) {
-                left = mid + 1;
-            }
-            if (nums[mid] < target) {
-                right = mid - 1;
+                high = mid - 1;
+            } else if (nums[mid] < target) {
+                low = mid + 1;
             }
         }
         return -1;
