@@ -1,9 +1,11 @@
 package org.newrain.leetcode.problem.string;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 最长回文串
- * @link <a href="https://leetcode.cn/problems/longest-palindrome/"></>
+ * @link <a href="https://leetcode.cn/problems/longest-palindrome/">leetcode</>
+ * @link <a href="https://www.lintcode.com/problem/627/">lintcode</a>
+ * @tag 字符串 String
  */
 public class LeetCode409 {
 
