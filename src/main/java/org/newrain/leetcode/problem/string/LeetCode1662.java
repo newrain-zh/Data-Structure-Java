@@ -1,9 +1,10 @@
 package org.newrain.leetcode.problem.string;
 
 /**
- * @author zhiqin.zhang
+ * @author NewRain
  * @description 检查两个字符串数组是否相等
  * @link <a href="https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/"></a>
+ * @tag 字符串 String
  */
 public class LeetCode1662 {
 
