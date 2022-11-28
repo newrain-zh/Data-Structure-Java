@@ -1,6 +1,13 @@
 package org.newrain.leetcode.problem.string;
 
-public class LeetCode151 {
+/**
+ * @author NewRain
+ * @description 反转字符串中的单词
+ * @link <a href="https://leetcode.cn/problems/reverse-words-in-a-string/submissions/">leetcode</a>
+ * @link <a href="https://www.lintcode.com/problem/927/">lintcode</a>
+ * @tag 字符串
+ */
+public class ReverseWords {
     public static String reverseWords(String s) {
         String[] strArr = s.split(" ");
         StringBuilder stringBuilder = new StringBuilder();
