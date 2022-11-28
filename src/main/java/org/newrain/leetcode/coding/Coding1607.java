@@ -1,7 +1,7 @@
 package org.newrain.leetcode.coding;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 最大的值
  */
 public class Coding1607 {

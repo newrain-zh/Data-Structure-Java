@@ -3,7 +3,7 @@ package org.newrain.leetcode.coding;
 import java.util.Arrays;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 消失的数字
  */
 public class Coding1704 {

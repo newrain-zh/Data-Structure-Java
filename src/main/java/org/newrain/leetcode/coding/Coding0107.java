@@ -7,7 +7,7 @@ package org.newrain.leetcode.coding;
  * <p>
  * 不占用额外内存空间能否做到？
  *
- * @author newRain
+ * @author NewRain
  * @description 旋转矩阵
  * @link <a href="https://leetcode.cn/problems/rotate-matrix-lcci/">...</a>
  */

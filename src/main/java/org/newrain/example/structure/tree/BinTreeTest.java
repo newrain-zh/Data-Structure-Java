@@ -1,7 +1,7 @@
 package org.newrain.example.structure.tree;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 二叉树测试用例
  */
 public class BinTreeTest {

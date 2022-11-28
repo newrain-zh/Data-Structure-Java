@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 回文排列
  * @See <a href="https://leetcode.cn/problems/palindrome-permutation-lcci/"></a>
  */

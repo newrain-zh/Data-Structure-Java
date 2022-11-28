@@ -1,7 +1,7 @@
 package org.newrain.leetcode.coding;
 
 /**
- * @author newRain
+ * @author NewRain
  * @link <a href="https://leetcode.cn/problems/convert-integer-lcci">leetcode</a>
  */
 public class Coding0506 {

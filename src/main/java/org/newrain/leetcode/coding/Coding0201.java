@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 移除未排序链表中的重复节点。保留最开始出现的节点。
  *
- * @author newRain
+ * @author NewRain
  * @link <a href="https://leetcode.cn/problems/remove-duplicate-node-lcci/">leetcode</a>
  */
 public class Coding0201 {

@@ -16,18 +16,18 @@ package org.newrain.example.recursion;
  *
  * <p>输入: 4 输出: "1211"
  *
- * @author newRain
+ * @author NewRain
  */
 public class Example {
 
     public static void main(String[] args) {
-        recursionDisplay(3);
+        System.out.println(recursionDisplay(3));
     }
 
     /**
      * 关于 递归中递进和回归的理解
      */
-    public static void recursionDisplay(int n) {
+    public static int recursionDisplay(int n) {
         //保证前后打印的值一样
         int temp = n;
         System.out.println("递进:" + temp);
@@ -35,5 +35,6 @@ public class Example {
             recursionDisplay(--n);
         }
         System.out.println("回归:" + temp);
+        return temp;
     }
 }
