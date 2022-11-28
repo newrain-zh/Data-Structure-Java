@@ -1,6 +1,12 @@
 package org.newrain.leetcode.problem.number;
 
-public class LeetCode485 {
+/**
+ * @author NewRain
+ * @description 最大连续1的个数
+ * @link <a href="https://leetcode.cn/problems/max-consecutive-ones/">leetcode</a>
+ * @link <a href="https://www.lintcode.com/problem/1212/">lintcode</a>
+ */
+public class FindMaxConsecutiveOnes {
 
 
     public static int findMaxConsecutiveOnes(int[] nums) {
