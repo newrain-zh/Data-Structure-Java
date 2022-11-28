@@ -1,5 +1,11 @@
 package org.newrain.leetcode.problem.number;
 
+/**
+ * @author NewRain
+ * @description 各位相加
+ * @link <a href="https://leetcode.cn/problems/add-digits/">leetcode</a>
+ * @link <a href="https://www.lintcode.com/problem/569/">lintcode</a>
+ */
 public class LeetCode258 {
 
 
