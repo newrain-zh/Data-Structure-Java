@@ -1,7 +1,7 @@
 package org.newrain.example.structure.list.linkedlist;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 环形列表实现
  */
 public class AnnularLinkedList<E> {

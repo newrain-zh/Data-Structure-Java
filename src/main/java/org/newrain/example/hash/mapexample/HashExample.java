@@ -1,7 +1,7 @@
 package org.newrain.example.hash.mapexample;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 2的次幂
  */
 public class HashExample {

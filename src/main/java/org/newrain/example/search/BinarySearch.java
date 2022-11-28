@@ -1,7 +1,7 @@
 package org.newrain.example.search;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 二分查找实现
  */
 public class BinarySearch {

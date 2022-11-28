@@ -3,7 +3,7 @@ package org.newrain.example.structure.bloom;
 import java.util.BitSet;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 布隆过滤器简单实现
  */
 public class BloomExample {
