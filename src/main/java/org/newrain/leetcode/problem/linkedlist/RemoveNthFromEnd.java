@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author newRain
+ * @author NewRain
+ * @description 删除链表中倒数第n个节点
+ * @link <a href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/">LeetCode</a>
+ * @link <a href="https://www.lintcode.com/problem/174/">lintcode</a>
  */
-public class LeetCode19 {
+public class RemoveNthFromEnd {
 
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
