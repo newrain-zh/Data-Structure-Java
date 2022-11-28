@@ -1,12 +1,12 @@
 package org.newrain.leetcode.problem.string;
 
 /**
- *
- * @description 最长回文字符串
  * @author newrain
+ * @description 最长回文字符串
  * @link <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">...</a>
+ * @link <a href="https://www.lintcode.com/problem/200/">lintcode</a>
  */
-public class LeetCode5 {
+public class LongestPalindrome {
 
     /**
      * 中心扩散
