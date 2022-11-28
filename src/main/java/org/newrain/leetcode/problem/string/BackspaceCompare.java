@@ -1,19 +1,17 @@
 package org.newrain.leetcode.problem.string;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 比较含退格的字符串
  * @link <a href="https://leetcode.cn/problems/backspace-string-compare/"><a/>
- * @complexity simle
+ * @link <a href="https://www.lintcode.com/problem/1425/">...</a>
  */
-public class LeetCode844 {
+public class BackspaceCompare {
 
 
     public static boolean backspaceCompare(String s, String t) {
         String str1 = remove(s);
         String str2 = remove(t);
-        System.out.println(str1);
-        System.out.println(str2);
         return str1.equals(str2);
     }
 
