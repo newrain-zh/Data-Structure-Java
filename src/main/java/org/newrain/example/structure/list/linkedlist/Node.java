@@ -1,7 +1,7 @@
 package org.newrain.example.structure.list.linkedlist;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 链表节点
  */
 public class Node {
