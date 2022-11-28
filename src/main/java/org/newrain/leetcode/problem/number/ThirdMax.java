@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
  * @description 第三大的数
  * @link <a href="https://www.lintcode.com/problem/1250/">lintcode</a>
  * @link <a href="https://leetcode.cn/problems/third-maximum-number/">...</a>
+ * @tag 数组[array]
  */
 public class ThirdMax {
 
