@@ -1,7 +1,7 @@
 package org.newrain.leetcode.problem.string;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 检查单词是否为句中其他单词的前缀
  * @tag string
  */
