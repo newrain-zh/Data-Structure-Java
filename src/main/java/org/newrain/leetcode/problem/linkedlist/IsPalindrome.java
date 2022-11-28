@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 回文链表
- * @link <a href="https://leetcode.cn/problems/palindrome-linked-list/submissions/">...</a>
+ * @link <a href="https://leetcode.cn/problems/palindrome-linked-list/submissions/">leetcode</a>
+ * @link <a href="https://www.lintcode.com/problem/223/">lintcode</a>
  * @complexity easy
  * @tag 递归
  */
-public class LeetCode234 {
+public class IsPalindrome {
 
     /**
      * 双指针+数组
