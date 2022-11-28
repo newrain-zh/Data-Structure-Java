@@ -1,17 +1,21 @@
 package org.newrain.leetcode.problem.string;
 
 /**
- * @author newRain
+ * @author NewRain
+ * @description 转换成小写字母
+ * @link <a href="https://leetcode.cn/problems/to-lower-case/">leetcode</a>
+ * @link <a href="https://www.lintcode.com/problem/1535/">lintcode</a>
+ * @tag 字符串 String
  */
-public class LeetCode709 {
+public class ToLowerCase {
 
 
-    public static String toLowerCase(String s) {
-        if (s == null || s.length() == 0) {
-            return s;
+    public static String toLowerCase(String str) {
+        if (str == null || str.length() == 0) {
+            return str;
         }
-        char[] r = new char[s.length()];
-        char[] chars = s.toCharArray();
+        char[] r = new char[str.length()];
+        char[] chars = str.toCharArray();
         for (int i = 0; i < chars.length; i++) {
             if (chars[i] >= 65 && chars[i] <= 90) {
                 r[i] = chars[i] |= 32;
