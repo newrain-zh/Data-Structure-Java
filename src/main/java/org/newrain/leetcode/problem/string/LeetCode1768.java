@@ -1,5 +1,11 @@
 package org.newrain.leetcode.problem.string;
 
+/**
+ * @author NewRain
+ * @description 交替合并字符串
+ * @link <a href="https://leetcode.cn/problems/merge-strings-alternately/">leetcode</a>
+ * @tag 字符串 String
+ */
 public class LeetCode1768 {
 
     public static String mergeAlternately(String word1, String word2) {
