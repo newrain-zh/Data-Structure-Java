@@ -4,9 +4,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author newRain
+ * @author NewRain
+ * @description 环形链表 II
+ * @link <a href="https://leetcode.cn/problems/linked-list-cycle-ii/submissions/">leetcode</a>
+ * @complexity middle
  */
-public class LeetCode142 {
+public class DetectCycle {
 
     public ListNode detectCycle(ListNode head) {
         Set<ListNode> set = new HashSet<>();
