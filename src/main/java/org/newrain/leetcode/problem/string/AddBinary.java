@@ -4,8 +4,12 @@ package org.newrain.leetcode.problem.string;
  * 给你两个二进制字符串，返回它们的和（用二进制表示）。
  * <p>
  * 输入为 非空 字符串且只包含数字 1 和 0
+ * @author NewRain
+ * @description 二进制求和
+ * @link <a href="https://www.lintcode.com/problem/408/">lintcode</a>
+ * @link <a href="https://leetcode.cn/problems/add-binary/">leetcode</a>
  */
-public class LeetCode67 {
+public class AddBinary {
 
     public static String addBinary(String a, String b) {
         char[] charsA = a.toCharArray();
