@@ -2,6 +2,11 @@ package org.newrain.leetcode.problem.linkedlist;
 
 import java.util.Stack;
 
+/**
+ * @author NewRain
+ * @link <a href="https://leetcode.cn/problems/add-two-numbers-ii/"></a>
+ * @description 两数相加 II
+ */
 public class LeetCode445 {
 
 
