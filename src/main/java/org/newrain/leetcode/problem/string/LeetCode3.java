@@ -4,9 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 无重复字符的最长子串
- * @complexity middle
+ * @link <a href="https://www.lintcode.com/problem/384/">lintcode</a>
+ * @link <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">leetcode</a>
  */
 public class LeetCode3 {
 
