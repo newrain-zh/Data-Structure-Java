@@ -6,7 +6,13 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class LeetCode414 {
+/**
+ * @author zhiqin.zhang
+ * @description 第三大的数
+ * @link <a href="https://www.lintcode.com/problem/1250/">lintcode</a>
+ * @link <a href="https://leetcode.cn/problems/third-maximum-number/">...</a>
+ */
+public class ThirdMax {
 
     public static int thirdMax(int[] nums) {
         if (nums.length == 1) {
