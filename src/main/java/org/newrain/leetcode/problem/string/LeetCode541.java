@@ -1,9 +1,7 @@
 package org.newrain.leetcode.problem.string;
 
-import javax.print.DocFlavor;
-
 /**
- * @author newRain
+ * @author NewRain
  * @description 反转字符串 II
  * @link <a href="https://leetcode.cn/problems/reverse-string-ii/"></a>
  */
