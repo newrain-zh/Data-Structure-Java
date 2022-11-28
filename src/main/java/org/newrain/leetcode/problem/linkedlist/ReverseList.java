@@ -1,13 +1,13 @@
 package org.newrain.leetcode.problem.linkedlist;
 
 /**
- * 反转链表
- * 输入 2->4->5->null
- * 输出 null->5->4->2
- * <p>
- * null<-2<-4<-5
+ * @author NewRain
+ * @complexity easy
+ * @description 反转链表
+ * @tag 链表 递归
+ * @link <a href="https://leetcode.cn/problems/reverse-linked-list/">leetcode</a>
  */
-public class LeetCode206 {
+public class ReverseList {
 
     public static ListNode reverseList(ListNode head) {
         ListNode prev = null;
