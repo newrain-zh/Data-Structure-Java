@@ -1,6 +1,12 @@
 package org.newrain.leetcode.problem.number;
 
-public class LeetCode263 {
+/**
+ * @author NewRain
+ * @description 丑数
+ * @link <a href="https://www.lintcode.com/problem/517/">lintcode</a>
+ * @link <a href="https://leetcode.cn/problems/ugly-number/">leetcode</a>
+ */
+public class IsUgly {
 
 
     public boolean isUgly(int n) {
@@ -15,10 +21,8 @@ public class LeetCode263 {
             }
         }
         return n == 1;
-
     }
 
     public static void main(String[] args) {
-
     }
 }
