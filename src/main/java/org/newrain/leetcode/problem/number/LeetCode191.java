@@ -2,6 +2,9 @@ package org.newrain.leetcode.problem.number;
 
 /**
  * @author newrain
+ * @description 位1的个数
+ * @link <a href="https://leetcode.cn/problems/number-of-1-bits/">leetcode</a>
+ * @位晕眩
  */
 public class LeetCode191 {
 
