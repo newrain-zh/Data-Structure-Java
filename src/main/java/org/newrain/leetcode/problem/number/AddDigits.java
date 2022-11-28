@@ -6,7 +6,7 @@ package org.newrain.leetcode.problem.number;
  * @link <a href="https://leetcode.cn/problems/add-digits/">leetcode</a>
  * @link <a href="https://www.lintcode.com/problem/569/">lintcode</a>
  */
-public class LeetCode258 {
+public class AddDigits {
 
 
     public static int addDigits(int num) {
