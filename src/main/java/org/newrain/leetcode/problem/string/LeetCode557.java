@@ -1,7 +1,7 @@
 package org.newrain.leetcode.problem.string;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 反转字符串中的单词 III
  * @link <a herf="https://leetcode.cn/problems/reverse-words-in-a-string-iii/"></a>
  */
