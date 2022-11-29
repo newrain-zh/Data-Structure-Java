@@ -1,4 +1,4 @@
-package org.newrain.code.problem.number;
+package org.newrain.code.problem.base;
 
 
 /**
