@@ -1,4 +1,4 @@
-package org.newrain.code.problem.number;
+package org.newrain.code.problem.base;
 
 import java.util.Comparator;
 import java.util.HashSet;
