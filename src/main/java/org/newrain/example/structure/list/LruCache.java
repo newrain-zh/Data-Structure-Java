@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description LRU缓存实现
  */
 public class LruCache {

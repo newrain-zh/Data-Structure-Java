@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 栈 后进后出
  * 目前实现的结构只能使用一次。若需要反复利用该栈 需要在压栈的时候做处理
  *
- * @author newRain
+ * @author NewRain
  * @description 栈实现代码
  */
 public class MyStack {

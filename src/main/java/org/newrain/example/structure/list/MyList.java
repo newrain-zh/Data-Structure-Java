@@ -3,7 +3,7 @@ package org.newrain.example.structure.list;
 import java.util.Arrays;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 动态数组实现
  */
 public class MyList {

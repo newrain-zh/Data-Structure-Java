@@ -1,7 +1,7 @@
 package org.newrain.example.hash.mapexample;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description hash结构length的设置
  */
 public class LengthExample {
