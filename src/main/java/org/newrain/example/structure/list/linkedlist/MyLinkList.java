@@ -3,7 +3,7 @@ package org.newrain.example.structure.list.linkedlist;
 import java.util.HashSet;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 单向链表表Java实现
  */
 public class MyLinkList {

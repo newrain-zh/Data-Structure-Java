@@ -1,7 +1,7 @@
 package org.newrain.example.hash.mapexample;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 扰动函数
  */
 public class MapExample {

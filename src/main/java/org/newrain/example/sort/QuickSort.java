@@ -3,7 +3,7 @@ package org.newrain.example.sort;
 import java.util.Arrays;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 快速排序
  */
 public class QuickSort {

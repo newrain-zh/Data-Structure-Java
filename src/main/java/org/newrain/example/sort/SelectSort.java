@@ -3,7 +3,7 @@ package org.newrain.example.sort;
 import java.util.Arrays;
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 选择排序
  */
 public class SelectSort {

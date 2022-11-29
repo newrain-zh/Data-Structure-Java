@@ -2,7 +2,7 @@ package org.newrain.example.structure.list.linkedlist;
 
 
 /**
- * @author newRain
+ * @author NewRain
  * @description 静态链表 Java实现
  */
 public class StaticLinkedList<T> {
