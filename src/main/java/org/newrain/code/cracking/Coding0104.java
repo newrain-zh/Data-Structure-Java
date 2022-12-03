@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * @author NewRain
  * @description 回文排列
- * @See <a href="https://leetcode.cn/problems/palindrome-permutation-lcci/"></a>
+ * @link <a href="https://leetcode.cn/problems/palindrome-permutation-lcci/"></a>
  */
 public class Coding0104 {
 
