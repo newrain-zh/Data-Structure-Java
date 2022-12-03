@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * @author NewRain
  * @description 独一无二的出现次数
- * @link <a href="https://leetcode.cn/problems/unique-number-of-occurrences/"></a>
+ * @link <a href="https://leetcodxe.cn/problems/unique-number-of-occurrences/"></a>
  */
 public class LeetCode1207 {
 
