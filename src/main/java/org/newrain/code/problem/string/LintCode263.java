@@ -6,6 +6,7 @@ import java.util.Stack;
  * @author NewRain
  * @description 小括号匹配
  * @link <a href="https://www.lintcode.com/problem/263">lintcode</a>
+ * @tag 栈 stack
  */
 public class LintCode263 {
 
