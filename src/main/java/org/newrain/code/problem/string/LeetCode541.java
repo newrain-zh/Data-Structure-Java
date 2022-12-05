@@ -7,7 +7,6 @@ package org.newrain.code.problem.string;
  */
 public class LeetCode541 {
 
-
     public static String reverseStr(String s, int k) {
         //特殊情况
         if (k == 0) {
@@ -21,7 +20,7 @@ public class LeetCode541 {
         StringBuilder curr = new StringBuilder();
         for (int i = pos; i < s.length(); i++) {
             if (pos == 2 * k) {
-                str.append(curr.append(s.substring(i - k, i)).reverse());
+                str.append(curr.append(s, i - k, i).reverse());
                 curr = new StringBuilder();
                 pos = 1;
             }
