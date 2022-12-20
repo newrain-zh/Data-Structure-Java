@@ -1,10 +1,23 @@
 package org.newrain.code.problem.array;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-public class LeetCode {
+/**
+ * @author NewRain
+ * @description 两数之和
+ * @link <a href="https://www.lintcode.com/problem/56">lintcode</a>
+ */
+public class TwoSum {
 
-
+    /**
+     * 使用KV结构
+     *
+     * @param nums
+     * @param target
+     * @return int[]
+     */
     public static int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length <= 1) {
             return new int[]{};
