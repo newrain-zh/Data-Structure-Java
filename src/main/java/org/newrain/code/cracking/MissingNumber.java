@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author NewRain
  * @description 消失的数字
  */
-public class Coding1704 {
+public class MissingNumber {
 
 
     /**
