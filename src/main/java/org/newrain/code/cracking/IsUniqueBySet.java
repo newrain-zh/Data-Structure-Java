@@ -9,11 +9,11 @@ import java.util.Set;
  * @description 面试题 01.01. 判定字符是否唯一
  * @link <a href="https://leetcode.cn/problems/is-unique-lcci"></a>
  */
-public class Coding0101 {
+public class IsUniqueBySet {
 
 
     public static boolean isUniqueBySet(String str) {
-        if (str == null || str.length() == 0) {
+        if (str == null || str.isEmpty()) {
             return true;
         }
         int length = str.length();
@@ -33,7 +33,7 @@ public class Coding0101 {
 
     public static boolean isUnique(String str) {
         //为"" or null 情况
-        if (str == null || str.length() == 0) {
+        if (str == null || str.isEmpty()) {
             return true;
         }
         int length = str.length();
