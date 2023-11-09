@@ -8,7 +8,7 @@ package org.newrain.code.cracking;
  * @description 一次编辑
  * @link <a href="https://leetcode.cn/problems/one-away-lcci"></a>
  */
-public class Coding0105 {
+public class OneEditAway {
 
     /**
      * 双指针逐个比对
