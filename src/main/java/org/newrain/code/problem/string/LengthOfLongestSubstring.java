@@ -9,7 +9,7 @@ import java.util.Map;
  * @link <a href="https://www.lintcode.com/problem/384/">lintcode</a>
  * @link <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">leetcode</a>
  */
-public class LeetCode3 {
+public class LengthOfLongestSubstring {
 
     public static int lengthOfLongestSubstring(String s) {
         //记录所有字符最近出现的位置
