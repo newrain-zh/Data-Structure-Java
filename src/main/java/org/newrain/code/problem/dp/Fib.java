@@ -7,7 +7,7 @@ package org.newrain.code.problem.dp;
  * F(n) = F(n - 1) + F(n - 2)，其中 n > 1
  * 给你 n ，请计算 F(n) 。
  */
-public class LeetCode509 {
+public class Fib {
 
 
     public static int fib(int n) {
