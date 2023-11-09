@@ -7,7 +7,7 @@ import java.util.Stack;
  * @link <a href="https://leetcode.cn/problems/add-two-numbers-ii/"></a>
  * @description 两数相加 II
  */
-public class LeetCode445 {
+public class AddTwoNumbersII {
 
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
