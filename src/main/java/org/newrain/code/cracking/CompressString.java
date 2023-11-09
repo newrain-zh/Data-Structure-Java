@@ -10,7 +10,7 @@ package org.newrain.code.cracking;
  * @description 字符串压缩
  * @link <a href="https://leetcode.cn/problems/compress-string-lcci"></a>
  */
-public class Coding0106 {
+public class CompressString {
 
 
     public static String compressString(String str) {
