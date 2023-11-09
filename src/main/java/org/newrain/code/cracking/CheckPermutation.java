@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @description 面试题 01.02. 判定是否互为字符重排
  * @see <a href="https://leetcode.cn/problems/check-permutation-lcci/"></a>
  */
-public class Coding0102 {
+public class CheckPermutation {
 
     public static boolean checkPermutation(String s1, String s2) {
         //check
