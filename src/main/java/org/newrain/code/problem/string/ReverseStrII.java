@@ -5,7 +5,7 @@ package org.newrain.code.problem.string;
  * @description 反转字符串 II
  * @link <a href="https://leetcode.cn/problems/reverse-string-ii/"></a>
  */
-public class LeetCode541 {
+public class ReverseStrII {
 
     public static String reverseStr(String s, int k) {
         //特殊情况
