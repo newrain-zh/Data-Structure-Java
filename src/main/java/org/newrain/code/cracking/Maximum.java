@@ -4,7 +4,7 @@ package org.newrain.code.cracking;
  * @author NewRain
  * @description 最大的值
  */
-public class Coding1607 {
+public class Maximum {
 
     public static int maximum(int a, int b) {
         //a>b,那么 a+b+a-b=2a
