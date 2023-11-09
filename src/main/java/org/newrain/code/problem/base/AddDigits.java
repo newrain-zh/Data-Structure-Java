@@ -2,7 +2,7 @@ package org.newrain.code.problem.base;
 
 /**
  * @author NewRain
- * @description 各位相加
+ * @description 个位相加
  * @link <a href="https://leetcode.cn/problems/add-digits/">leetcode</a>
  * @link <a href="https://www.lintcode.com/problem/569/">lintcode</a>
  */
