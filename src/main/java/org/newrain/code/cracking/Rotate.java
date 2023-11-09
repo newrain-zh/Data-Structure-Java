@@ -11,7 +11,7 @@ package org.newrain.code.cracking;
  * @description 旋转矩阵
  * @link <a href="https://leetcode.cn/problems/rotate-matrix-lcci/">...</a>
  */
-public class Coding0107 {
+public class Rotate {
 
     /**
      * [
