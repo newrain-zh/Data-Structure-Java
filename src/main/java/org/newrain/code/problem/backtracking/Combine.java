@@ -12,7 +12,7 @@ import java.util.List;
  * @complexity middle
  * @tag 递归 回溯 暴力枚举
  */
-public class LeetCode77 {
+public class Combine {
 
 
     public static List<List<Integer>> combine(int n, int k) {
