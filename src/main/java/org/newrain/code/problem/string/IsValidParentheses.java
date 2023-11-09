@@ -11,7 +11,7 @@ import java.util.Stack;
  * @link <a href="https://leetcode.cn/problems/valid-parentheses/">leetcode</a>
  * @tag 栈 stack 字符串 String
  */
-public class LintCode423 {
+public class IsValidParentheses {
 
     /**
      * @param s: A string
