@@ -9,7 +9,7 @@ import java.util.List;
  * @author NewRain
  * @link <a href="https://leetcode.cn/problems/remove-duplicate-node-lcci/">leetcode</a>
  */
-public class Coding0201 {
+public class RemoveDuplicateNodes {
 
     public static ListNode removeDuplicateNodes(ListNode head) {
         ListNode tail = head;
@@ -84,5 +84,3 @@ public class Coding0201 {
         return head;
     }
 }
-
-
