@@ -12,7 +12,7 @@ package org.newrain.code.problem.array;
  *
  * @author newrain
  */
-public class LeetCode169 {
+public class MajorityElement {
 
     public static int majorityElement(int[] nums) {
         int cardNum = nums[0], count = 0;
