@@ -8,13 +8,13 @@ import java.util.Set;
  * @description 回文排列
  * @link <a href="https://leetcode.cn/problems/palindrome-permutation-lcci/"></a>
  */
-public class Coding0104 {
+public class CanPermutePalindrome {
 
     /**
      * Ascii码计数法
      */
     public static boolean canPermutePalindrome(String s) {
-        if (s.length() == 0) {
+        if (s == null || s.isEmpty()) {
             return false;
         }
         if (s.length() == 1) {
