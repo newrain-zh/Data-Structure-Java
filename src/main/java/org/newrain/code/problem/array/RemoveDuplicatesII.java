@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @link <a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/">...</a>
  * @complexity middle
  */
-public class LeetCode80 {
+public class RemoveDuplicatesII {
 
     /**
      * 快慢指针算法
