@@ -9,7 +9,7 @@ import java.util.Map;
  * @link <a href="https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/"></a>
  * @tag array
  */
-public class LeetCode961 {
+public class RepeatedNTimes {
 
     public int repeatedNTimes(int[] nums) {
         int cnt = nums.length / 2;
