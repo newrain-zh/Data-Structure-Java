@@ -13,7 +13,7 @@ import java.util.Arrays;
  *
  * @author newrain
  */
-public class LeetCode1480 {
+public class RunningSum {
 
     public static int[] runningSum(int[] nums) {
         int sum = 0;
