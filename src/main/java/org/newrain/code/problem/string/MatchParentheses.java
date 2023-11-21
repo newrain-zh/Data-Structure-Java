@@ -8,7 +8,7 @@ import java.util.Stack;
  * @link <a href="https://www.lintcode.com/problem/263">lintcode</a>
  * @tag 栈 stack
  */
-public class LintCode263 {
+public class MatchParentheses {
 
     /**
      * 利用栈来解决匹配问题
