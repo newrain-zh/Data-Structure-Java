@@ -1,13 +1,16 @@
 package org.newrain.code.problem.array;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * @author NewRain
  * @description 独一无二的出现次数
  * @link <a href="https://leetcodxe.cn/problems/unique-number-of-occurrences/"></a>
  */
-public class LeetCode1207 {
+public class UniqueOccurrences {
 
     public boolean uniqueOccurrences(int[] arr) {
         int length = arr.length;
