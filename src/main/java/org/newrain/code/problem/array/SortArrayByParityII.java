@@ -7,7 +7,6 @@ import java.util.LinkedList;
 /**
  * 按奇偶排序数组 II
  * 给定一个非负整数数组 nums，  nums 中一半整数是 奇数 ，一半整数是 偶数 。
- *
  * 对数组进行排序，以便当 nums[i] 为奇数时，i 也是 奇数 ；当 nums[i] 为偶数时， i 也是 偶数
  */
 public class SortArrayByParityII {
