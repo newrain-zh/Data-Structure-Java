@@ -7,11 +7,11 @@ import java.util.Arrays;
  * <p>
  * 请注意 ，必须在不复制数组的情况下原地对数组进行操作。
  *
- * @author NewRain
+ * @author alex
  * @description 移动零
  * @link <a href="https://leetcode.cn/problems/move-zeroes/"></a>
  */
-public class LeetCode283 {
+public class MoveZeroes {
 
     public static void moveZeroes(int[] nums) {
         int index = 0;
