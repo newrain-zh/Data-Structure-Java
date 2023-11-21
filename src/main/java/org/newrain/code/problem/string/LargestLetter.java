@@ -8,7 +8,7 @@ import java.util.Map;
  * @description 最大字母
  * @link <a href="https://www.lintcode.com/problem/353">lintcode</a>
  */
-public class LintCode353 {
+public class LargestLetter {
 
     /**
      * @param s: a string
