@@ -3,11 +3,11 @@ package org.newrain.code.problem.array;
 import java.util.Arrays;
 
 /**
- * @author NewRain
+ * @author alex
  * @description 三个数的最大乘积
  * @link <a href="https://leetcode.cn/problems/maximum-product-of-three-numbers/"></a>
  */
-public class LeetCode628 {
+public class MaximumProduct {
 
 
     public static int maximumProduct(int[] nums) {
