@@ -5,7 +5,7 @@ package org.newrain.code.problem.string;
  * @description 反转字符串中的单词 III
  * @link <a herf="https://leetcode.cn/problems/reverse-words-in-a-string-iii/"></a>
  */
-public class LeetCode557 {
+public class ReverseWordsIII {
 
 
     public static String reverseWords(String s) {
