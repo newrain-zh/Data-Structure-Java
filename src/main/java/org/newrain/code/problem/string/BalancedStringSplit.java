@@ -6,7 +6,7 @@ package org.newrain.code.problem.string;
  * @link <a href="https://leetcode.cn/problems/split-a-string-in-balanced-strings/"></a>
  * @tag string
  */
-public class LeetCode1221 {
+public class BalancedStringSplit {
 
     /**
      * 抵消思路
