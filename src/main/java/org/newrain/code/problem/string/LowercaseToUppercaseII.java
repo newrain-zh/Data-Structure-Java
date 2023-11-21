@@ -6,7 +6,7 @@ package org.newrain.code.problem.string;
  * @link <a href="https://www.lintcode.com/problem/146/">lintcode</a>
  * @tag 字符串 String
  */
-public class LintCode146 {
+public class LowercaseToUppercaseII {
 
     public static String lowercaseToUppercase2(String letters) {
         char[] chars = letters.toCharArray();
