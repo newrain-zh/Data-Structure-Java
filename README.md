@@ -7,7 +7,7 @@
 # 项目结构
     └── org
     └── newrain
-    ├── example
+    ├── example 数据与结构算法练习
     │   ├── dp        => 动态规划
     │   ├── hash      => hash算法
     │   ├── recursion => 递归
@@ -15,10 +15,8 @@
     │   ├── sort      => 排序
     │   ├── structure => 基础数据结构实现
     │   └── timewile  => 时间轮
-    └── leetcode
-    ├── coding    => 面试金典
-    ├── offer     => 剑指offer
-    ├── package-info.java
-    └── problem   => leetcode题
-
-
+    ├── code
+    ├──    cracking    => 面试金典
+    ├──    offer       => 剑指offer
+    ├──    package-info.java
+    └──    problem     => leetcode、lintcode题
