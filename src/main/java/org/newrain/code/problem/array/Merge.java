@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author newrain
  */
-public class LeetCode88 {
+public class Merge {
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         if (m == 0) {
