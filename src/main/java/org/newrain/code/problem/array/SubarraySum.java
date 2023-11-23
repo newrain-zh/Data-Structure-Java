@@ -6,9 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 给定一个整数数组，找到和为
- * 0
- * 0 的子数组。你的代码应该返回满足要求的子数组的起始位置和结束位置
+ * 给定一个整数数组，找到和为0的子数组。
+ * 你的代码应该返回满足要求的子数组的起始位置和结束位置
  */
 public class SubarraySum {
 
