@@ -1,13 +1,16 @@
 package org.newrain.code.problem.array;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * @author NewRain
  * @description 找到所有数组中消失的数字
  * @link <a href="https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array/"></a>
  */
-public class LeetCode448 {
+public class FindDisappearedNumbersI {
 
     public static List<Integer> findDisappearedNumbers(int[] nums) {
         int length = nums.length;
