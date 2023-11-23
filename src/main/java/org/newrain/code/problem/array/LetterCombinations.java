@@ -6,9 +6,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * leetcode.17 电话号码的字母组合
  * @author NewRain
  */
-public class LeetCode17 {
+public class LetterCombinations {
 
 
     Map<Character, String> phoneMap = new HashMap<Character, String>(8) {{
@@ -25,7 +26,7 @@ public class LeetCode17 {
 
 
     public List<String> letterCombinations(String digits) {
-        if (digits.length() == 0) {
+        if (digits.isEmpty()) {
             return combinations;
         }
         backtrack(digits, 0, new StringBuilder());
