@@ -3,7 +3,10 @@ package org.newrain.code.problem.array;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeetCode905 {
+/**
+ * leetcode.905 按奇偶排序数组
+ */
+public class SortArrayByParity {
 
     public int[] sortArrayByParity(int[] nums) {
         if (nums.length <= 1) {
