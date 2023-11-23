@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @description 丢失的数字
  * @link <a href="https://leetcode.cn/problems/missing-number/"></>
  */
-public class LeetCode268 {
+public class MissingNumberI {
 
     public static int missingNumber1(int[] nums) {
         int len = nums.length;
@@ -40,4 +40,3 @@ public class LeetCode268 {
         System.out.println(missingNumber2(new int[]{9, 6, 4, 2, 3, 5, 7, 0, 1}));
     }
 }
-
