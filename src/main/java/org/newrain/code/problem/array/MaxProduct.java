@@ -6,7 +6,7 @@ package org.newrain.code.problem.array;
  * @link <a href="https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array/><a/>
  * @tag array
  */
-public class LeetCode1464 {
+public class MaxProduct {
 
 
     public static int maxProduct(int[] nums) {
