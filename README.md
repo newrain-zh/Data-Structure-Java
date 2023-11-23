@@ -1,5 +1,5 @@
 # Data-Structure-Java
-数据结构与算法学习示例、LeetCode刷题记录。
+数据结构与算法学习示例、LeetCode、LintCode刷题记录。
 
 # 项目介绍
 基础的、常用的数据结构、算法使用示例（Java语言描述）。涵盖了LeetCode、lintcode、剑指offer等书籍中的算法题代码，属于个人学习研究项目。
