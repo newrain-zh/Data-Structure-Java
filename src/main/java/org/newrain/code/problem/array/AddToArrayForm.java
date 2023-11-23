@@ -9,7 +9,7 @@ import java.util.List;
  * @description 数组形式的整数加法
  * @link <a href="https://leetcode.cn/problems/add-to-array-form-of-integer/"></a>
  */
-public class LeetCode989 {
+public class AddToArrayForm {
 
     public static List<Integer> addToArrayForm(int[] num, int k) {
         //判断特殊情况
