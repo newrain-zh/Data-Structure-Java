@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @link <a href="https://www.lintcode.com/problem/767">lintcode</a>
  * @tag 数组 Array
  */
-public class LintCode767 {
+public class ReverseArray {
 
     public static void reverseArray(int[] nums) {
         // write your code here
