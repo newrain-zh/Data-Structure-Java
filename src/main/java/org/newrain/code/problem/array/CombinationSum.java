@@ -4,13 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ *
+ * 题目：组合总和
  * @author NewRain
  * @description
  * @link <a href="https://leetcode.cn/problems/combination-sum/">...</a>
  * @tag array
  * @complexity middle
  */
-public class LeetCode39 {
+public class CombinationSum {
 
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
