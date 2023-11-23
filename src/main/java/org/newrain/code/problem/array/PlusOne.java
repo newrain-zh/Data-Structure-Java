@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @link <a href="https://www.lintcode.com/problem/407">lintcode</a>
  * @tag 数组 array
  */
-public class LeetCode66 {
+public class PlusOne {
 
     public static int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
