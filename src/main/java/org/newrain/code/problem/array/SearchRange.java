@@ -2,7 +2,10 @@ package org.newrain.code.problem.array;
 
 import java.util.Arrays;
 
-public class LeetCode34 {
+/**
+ * leetcode 34 在排序数组中查找元素的第一个和最后一个位置
+ */
+public class SearchRange {
 
 
     public static int[] searchRange(int[] nums, int target) {
