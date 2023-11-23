@@ -5,7 +5,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class LeetCode349 {
+/**
+ * leetcode.349 两个数组的交集
+ */
+public class LeetCodeIntersection {
 
     public int[] intersection(int[] nums1, int[] nums2) {
         if (nums1.length == 0 || nums2.length == 0) {
