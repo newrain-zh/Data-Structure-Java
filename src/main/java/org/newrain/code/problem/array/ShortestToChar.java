@@ -4,11 +4,12 @@ import java.util.Arrays;
 
 /**
  *
+ * leetcode.821 字符的最短距离
  * @author NewRain
  * @description 字符的最短距离
  * @link <a href="https://leetcode.cn/problems/shortest-distance-to-a-character/"></a>
  */
-public class LeetCode821 {
+public class ShortestToChar {
 
     public static int[] shortestToChar(String s, char c) {
         int[] arr = new int[s.length()];
