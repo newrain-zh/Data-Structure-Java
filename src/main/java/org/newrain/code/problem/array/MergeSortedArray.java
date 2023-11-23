@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
+ * leetcode.6 合并排序数组
  * @author NewRain
  * @description 合并排序数组
  * @tag 双指针
