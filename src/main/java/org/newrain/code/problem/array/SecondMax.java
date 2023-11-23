@@ -5,7 +5,7 @@ package org.newrain.code.problem.array;
  * @link <a href="https://www.lintcode.com/problem/479">lintcode</a>
  * @description 数组第二大数
  */
-public class LintCode479 {
+public class SecondMax {
 
 
     public static int secondMax(int[] nums) {
