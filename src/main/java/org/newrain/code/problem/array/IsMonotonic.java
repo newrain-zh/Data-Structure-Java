@@ -1,6 +1,9 @@
 package org.newrain.code.problem.array;
 
-public class LeetCode896 {
+/**
+ * 单调数列
+ */
+public class IsMonotonic {
 
 
     public boolean isMonotonic(int[] nums) {
