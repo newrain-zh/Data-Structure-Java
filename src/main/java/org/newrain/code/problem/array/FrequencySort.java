@@ -4,9 +4,11 @@ import java.util.*;
 
 
 /**
+ *
+ * leetcode 1636. 按照频率将数组升序排序
  * @author zhiqin.zhang
  */
-public class LeetCode1636 {
+public class FrequencySort {
 
     public static int[] frequencySort(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>(nums.length);
