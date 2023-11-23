@@ -5,7 +5,7 @@ package org.newrain.code.problem.array;
  * @description 是否所有 1 都至少相隔 k 个元素
  * @tag array
  */
-public class LeetCode1437 {
+public class KLengthApart {
 
     /**
      * 利用空间记录位置解题
