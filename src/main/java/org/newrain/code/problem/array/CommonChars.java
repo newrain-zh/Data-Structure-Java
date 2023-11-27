@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 题目: 查找常用字符
+ *
+ * 题目: leetcode.1002 查找共用字符
  * 给你一个字符串数组 words ，
  * 请你找出所有在 words 的每个字符串中都出现的共用字符（ 包括重复字符），
  * 并以数组形式返回。你可以按 任意顺序 返回答案。
