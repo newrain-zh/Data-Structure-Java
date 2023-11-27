@@ -2,8 +2,9 @@
 数据结构与算法学习示例、LeetCode、LintCode刷题记录。
 
 # 项目介绍
-基础的、常用的数据结构、算法使用示例（Java语言描述）。 涵盖了LeetCode、lintcode、剑指offer等书籍中的算法题代码,
+- 基础的、常用的数据结构、算法使用示例（Java语言描述）。 涵盖了LeetCode、lintcode、剑指offer等书籍中的算法题代码,
 大部分的算法题都在注释中介绍了解题思路。
+- 在git commit message、类的注释上面一般都标注了题目来源、题号和题目的描述等信息，可自行去leetcode、lintcode等找到对应的算法题
 
 
 # 项目结构
