@@ -24,7 +24,7 @@ public class ThreeConsecutiveOdds {
                 count = 0;
             }
         }
-        return count >= 3;
+        return false;
     }
 
     public static void main(String[] args) {
