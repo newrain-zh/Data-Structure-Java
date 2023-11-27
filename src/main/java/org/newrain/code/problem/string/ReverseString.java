@@ -25,7 +25,7 @@ public class ReverseString {
      * @return return a string
      */
     public static String reverseString(String s) {
-        if (s == null || s.length() == 0 || s.length() == 1) {
+        if (s == null || s.isEmpty() || s.length() == 1) {
             return s;
         }
         StringBuilder res = new StringBuilder();
