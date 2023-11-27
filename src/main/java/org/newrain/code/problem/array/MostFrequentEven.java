@@ -18,10 +18,17 @@ import java.util.Map;
  */
 public class MostFrequentEven {
 
+
+    /**
+     * 使用hash表计数
+     *
+     * @param nums
+     * @return
+     */
     public int mostFrequentEven(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
-        int maxCount = Integer.MIN_VALUE; //
-        int uniqueEven = 0;//
+        int maxCount = Integer.MIN_VALUE; // 出现的最大次数
+        int uniqueEven = 0;//唯一偶数
         for (int num : nums) {
             if ((num & 1) == 0) {
                 uniqueEven = num;
