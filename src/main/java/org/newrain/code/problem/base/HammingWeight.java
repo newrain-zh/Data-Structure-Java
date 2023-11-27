@@ -1,12 +1,12 @@
 package org.newrain.code.problem.base;
 
 /**
+ * 题目：leetcode.191 位1的个数
  * @author newrain
  * @description 位1的个数
  * @link <a href="https://leetcode.cn/problems/number-of-1-bits/">leetcode</a>
- * @位晕眩
  */
-public class LeetCode191 {
+public class HammingWeight {
 
 
     public int hammingWeight(int n) {
