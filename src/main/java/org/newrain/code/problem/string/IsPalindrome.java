@@ -3,7 +3,8 @@ package org.newrain.code.problem.string;
 /**
  *
  * 题目：leetcode.125 验证回文串
- * 如果在将所有大写字符转换为小写字符、并移除所有非字母数字字符之后，短语正着读和反着读都一样。则可以认为该短语是一个 回文串 。
+ * 如果在将所有大写字符转换为小写字符、并移除所有非字母数字字符之后，
+ * 短语正着读和反着读都一样。则可以认为该短语是一个 回文串 。
  * <p>
  * 字母和数字都属于字母数字字符。
  * <p>
@@ -32,10 +33,11 @@ public class IsPalindrome {
         if (length == 0) {
             return true;
         }
+        //这里做截取处理 然后通过StringBuilder api 方式来做比对
         int pos = length % 2 == 0 ? length / 2 : length / 2 + 1;
         String s1 = s3.substring(0, length / 2);
         String s2 = s3.substring(pos);
-        return s1.equals(new StringBuilder(s2).reverse().toString());
+        return s1.contentEquals(new StringBuilder(s2).reverse());
     }
 
     public static void main(String[] args) {
