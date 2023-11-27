@@ -1,18 +1,19 @@
 package org.newrain.code.problem.string;
 
 /**
+ * 题目： lintcode.1820 寻找字母
  * @author NewRain
  * @description 寻找字母
  * @link <a href="https://www.lintcode.com/problem/1820">...lintcode</a>
  */
-public class LintCode1802 {
+public class FindLetter {
 
     /**
      * @param str: the str
      * @return the letter
      */
     public static char findLetter(String str) {
-        if (str == null || str.length() == 0) {
+        if (str == null || str.isEmpty()) {
             return '~';
         }
         int[] ints = new int[128];
