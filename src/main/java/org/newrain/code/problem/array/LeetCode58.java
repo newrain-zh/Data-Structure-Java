@@ -6,6 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
+ *
+ * 题目：leetcode.56  合并区间
  * 输入：intervals = [[1,3],[2,6],[8,10],[15,18]]
  * 输出：[[1,6],[8,10],[15,18]]
  * 解释：区间 [1,3] 和 [2,6] 重叠, 将它们合并为 [1,6].
@@ -30,7 +32,7 @@ public class LeetCode58 {
             //result.size() == 0 直接添加原二维数组的第一个元素，
             //后续元素会和前面的元素来判断是否重叠
             //如果当前数组元素的值的最小值大于上个上个区间的最大值，说明不在一个区间范围内，可直接添加进数组
-            if (result.size() == 0 || result.get(result.size() - 1)[1] < l) {
+            if (result.isEmpty() || result.get(result.size() - 1)[1] < l) {
                 result.add(new int[]{l, r});
             } else {
                 //重叠情况就要和上一元素做对比 因为数组是排序的，只要取出上一个元素的最小值，还有重叠区间的最大值 组成新的区间值
