@@ -51,10 +51,13 @@ public class FindEvenNumbers {
     public int[] findEvenNumbers(int[] digits) {
         //1.头不为0，尾部为偶数，递增
         List<Integer> ans = new ArrayList<>();
-        int[] count = new int[10];
+        int[] count = new int[10]; //元素计数器
         for (int digit : digits) {
             count[digit]++;
         }
+        //题目中表示了3位数 说明最大的偶数为998
+        //遍历 100- 1000这个范围区间的所有偶数
+        // 例如 102 通过while循环来拆解 101的值，然后根据count计数器来查询是否能组成该值的可能
         for (int i = 100; i < 1000; i += 2) {
 
             int[] count1 = new int[10];
