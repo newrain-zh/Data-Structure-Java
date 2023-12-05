@@ -18,7 +18,7 @@
     │   ├── sort      => 排序
     │   ├── structure => 基础数据结构实现
     │   └── timewile  => 时间轮
-    ├── code
+    ├── code  算法题
     ├──    cracking    => 面试金典
     ├──    offer       => 剑指offer
     ├──    package-info.java
