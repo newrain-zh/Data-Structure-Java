@@ -12,7 +12,7 @@ public class CanBeIncreasing {
 
     public static boolean canBeIncreasing(int[] nums) {
         int cnt = 0; //判断不是递增的现象出现的次数
-        int pre = nums[0];//标准值
+        int pre = nums[0]; //标准值
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] > pre) {//
                 pre = nums[i];
