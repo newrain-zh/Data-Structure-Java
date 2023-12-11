@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * leetcode.242 有效的字母异位词
  * 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
  * <p>
  * 注意：若 s 和 t 中每个字符出现的次数都相同，则称 s 和 t 互为字母异位词。
@@ -11,7 +12,7 @@ import java.util.Map;
  * <p>
  * <p>
  */
-public class LeetCode242 {
+public class IsAnagram {
 
     /**
      * 利用map解法
