@@ -6,11 +6,12 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * leetcode.501 二叉搜索树中的众树
  * @author NewRain
  * @description 二叉搜索树中的众数
  * @link <a href="https://leetcode.cn/problems/find-mode-in-binary-search-tree/">...</a>
  */
-public class LeetCode501 {
+public class FindMode {
 
     public int[] findMode(TreeNode root) {
         if (root == null) {
