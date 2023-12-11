@@ -1,13 +1,15 @@
 package org.newrain.code.problem.string;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
+ * leetcode.917 仅反转字母
  * @author NewRain
  * @description
  * @link
  */
-public class LeetCode917 {
+public class ReverseOnlyLetters {
 
     public static String reverseOnlyLetters(String s) {
         int length = s.length();
