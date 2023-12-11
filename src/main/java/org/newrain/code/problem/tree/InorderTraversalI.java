@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * lintcode.66 树的前序遍历
  * @author NewRain
+ * @description 树的前序遍历
+ * @link <a href="https://www.lintcode.com/problem/66">lintcode</a>
  */
-public class LeetCode94 {
+public class InorderTraversalI {
 
 
     public List<Integer> inorderTraversal(TreeNode root) {
@@ -19,8 +22,8 @@ public class LeetCode94 {
         if (root == null) {
             return;
         }
-        prevOrder(root.left, list);
         list.add(root.val);
+        prevOrder(root.left, list);
         prevOrder(root.right, list);
     }
 }
