@@ -3,11 +3,12 @@ package org.newrain.code.problem.tree;
 import java.util.*;
 
 /**
+ * leetcode.107 二叉树的层序遍历 II
  * @author NewRain
  * @description 二叉树的层序遍历 II
  * @link  <a href="https://leetcode.cn/problems/binary-tree-level-order-traversal-ii/">...</a>
  */
-public class LeetCode107 {
+public class LevelOrderBottomII {
 
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         if (root == null) {
