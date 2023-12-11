@@ -4,9 +4,10 @@ import java.util.Collections;
 import java.util.List;
 
 /**
+ * leetcode.1002 查找公用字符串
  * @author NewRain
  */
-public class LeetCode1002 {
+public class CommonChars {
 
     public static List<String> commonChars(String[] words) {
         if (words.length == 1) {
