@@ -9,7 +9,7 @@ import java.util.Map;
  *
  * @author newrain
  */
-public class LeetCode387 {
+public class FirstUniqChar {
 
 
     public static int firstUniqChar(String s) {
