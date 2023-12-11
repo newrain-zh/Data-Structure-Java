@@ -2,6 +2,15 @@ package org.newrain.code.problem.array;
 
 import java.util.*;
 
+/**
+ * leetcode.599 两个列表的最小索引总和
+ * 假设 Andy 和 Doris 想在晚餐时选择一家餐厅，并且他们都有一个表示最喜爱餐厅的列表，每个餐厅的名字用字符串表示。
+ * 你需要帮助他们用最少的索引和找出他们共同喜爱的餐厅。 如果答案不止一个，则输出所有答案并且不考虑顺序。 你可以假设答案总是存在。
+ * 示例 1:
+ * 输入: list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"]，list2 = ["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"]
+ * 输出: ["Shogun"]
+ * 解释: 他们唯一共同喜爱的餐厅是“Shogun”。
+ */
 public class FindRestaurant {
 
     public static void main(String[] args) {
@@ -53,6 +62,7 @@ public class FindRestaurant {
         }
         return resList.toArray(new String[]{});
     }
+
 
     public static String[] findRestaurant1(String[] list1, String[] list2) {
         Map<String, Integer> map1 = new HashMap<>(list1.length);
