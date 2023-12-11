@@ -1,11 +1,12 @@
 package org.newrain.code.problem.string;
 
 /**
+ * leetcode.1624 两个相同字符之间的最长子字符串
  * @author NewRain
  * @description 两个相同字符之间的最长子字符串
  * @link <a href="https://leetcode.cn/problems/largest-substring-between-two-equal-characters/"></>
  */
-public class LeetCode1624 {
+public class MaxLengthBetweenEqualCharacters {
 
 
     public static int maxLengthBetweenEqualCharacters(String s) {
