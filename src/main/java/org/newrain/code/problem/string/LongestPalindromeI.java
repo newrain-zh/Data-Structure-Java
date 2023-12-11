@@ -1,13 +1,14 @@
 package org.newrain.code.problem.string;
 
 /**
+ * leetcode.409 最长回文串
  * @author NewRain
  * @description 最长回文串
  * @link <a href="https://leetcode.cn/problems/longest-palindrome/">leetcode</>
  * @link <a href="https://www.lintcode.com/problem/627/">lintcode</a>
  * @tag 字符串 String
  */
-public class LeetCode409 {
+public class LongestPalindromeI {
 
     public static int longestPalindrome(String s) {
         char[] chars = s.toCharArray();
