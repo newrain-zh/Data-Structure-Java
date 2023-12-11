@@ -4,12 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * leetcode.383 赎金信
+ *
  * @author newrain
  */
-public class LeetCode383 {
+public class CanConstruct {
 
     public static boolean canConstruct(String ransomNote, String magazine) {
-        if (ransomNote.length() > 0 && magazine.length() == 0) {
+        if (!ransomNote.isEmpty() && magazine.isEmpty()) {
             return false;
         }
         char[] chars = magazine.toCharArray();
