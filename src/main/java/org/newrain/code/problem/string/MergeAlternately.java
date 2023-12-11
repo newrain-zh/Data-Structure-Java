@@ -1,18 +1,19 @@
 package org.newrain.code.problem.string;
 
 /**
+ * leetcode.1768 交替合并字符串
  * @author NewRain
  * @description 交替合并字符串
  * @link <a href="https://leetcode.cn/problems/merge-strings-alternately/">leetcode</a>
  * @tag 字符串 String
  */
-public class LeetCode1768 {
+public class MergeAlternately {
 
     public static String mergeAlternately(String word1, String word2) {
-        if (word1 == null || word1.length() == 0) {
+        if (word1 == null || word1.isEmpty()) {
             return word2;
         }
-        if (word2 == null || word2.length() == 0) {
+        if (word2 == null || word2.isEmpty()) {
             return word1;
         }
         int minLen = Math.min(word1.length(), word2.length());
