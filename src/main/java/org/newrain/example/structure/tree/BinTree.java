@@ -126,10 +126,6 @@ public class BinTree {
         if (parentL != null) {
             return parentL;
         }
-        TreeNode parentR = getParent(root.getRight(), x);
-        if (parentR != null) {
-            return parentR;
-        }
-        return null;
+        return getParent(root.getRight(), x);
     }
 }
