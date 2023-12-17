@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * lintcode.1783 二叉树的后序遍历
  * @author NewRain
  * @description 二叉树的后序遍历
  * @link <a href="https://www.lintcode.com/problem/1783">lintcode</a>
  */
-public class LintCode1783 {
+public class PostorderTraversalI {
 
     /**
      * @param root: A Tree
