@@ -1,11 +1,12 @@
 package org.newrain.code.problem.string;
 
 /**
+ * leetcode.1446 连续字符
  * @author NewRain
  * @description  连续字符
  * @link <a href="https://leetcode.cn/problems/consecutive-characters/"></a>
  */
-public class LeetCode1446 {
+public class MaxPower {
 
     public static int maxPower(String s) {
         char[] chars = s.toCharArray();
