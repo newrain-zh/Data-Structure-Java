@@ -102,11 +102,7 @@ public class BinTree {
         if (null != leftNode) {
             return leftNode;
         }
-        TreeNode rightNode = findNode(root.getRight(), x);
-        if (null != rightNode) {
-            return rightNode;
-        }
-        return null;
+        return findNode(root.getRight(), x);
     }
 
     // 返回某节点的父节点
