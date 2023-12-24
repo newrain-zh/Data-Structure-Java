@@ -8,6 +8,7 @@ import java.util.stream.Stream;
 
 /**
  * leetcode.15 三数之和
+ *
  * @link <a href="https://leetcode.cn/problems/3sum/description/">三数之和</a>
  * <p>
  * 给你一个整数数组 nums ，判断是否存在三元组 [nums[i], nums[j], nums[k]] 满足 i != j、i != k 且 j != k ，同时还满足 nums[i] + nums[j] + nums[k] == 0 。请
@@ -33,10 +34,11 @@ public class ThreeSum {
 
     /**
      * 首先这里并不是最优解，最优解是在这个基础上进行优化
-     *
+     * <p>
      * 首先排序，这样左边的肯定是负数，然后使用双指针
-     *
+     * <p>
      * 这样左右两边的负数和正数加当前数等于0时就表示符合题目中的条件
+     *
      * @param nums
      * @return
      */
