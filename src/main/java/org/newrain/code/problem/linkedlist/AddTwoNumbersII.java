@@ -1,63 +1,59 @@
 package org.newrain.code.problem.linkedlist;
 
-import java.util.Stack;
-
 /**
+ * leetcode.2 两数相加II
+ *
  * @author NewRain
  * @link <a href="https://leetcode.cn/problems/add-two-numbers-ii/"></a>
  * @description 两数相加 II
  */
 public class AddTwoNumbersII {
 
-
+    /**
+     * 根据题意
+     *
+     * @param l1
+     * @param l2
+     * @return
+     */
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        if (l1 == null && l2 == null) {
-            return null;
-        }
-        Stack<Integer> stack1 = new Stack<>();
-        Stack<Integer> stack2 = new Stack<>();
-        while (l1 != null) {
-            stack1.push(l1.val);
-            l1 = l1.next;
-        }
-        while (l2 != null) {
-            stack2.push(l2.val);
-            l2 = l2.next;
-        }
-        //进位
         int carry = 0;
-        ListNode ans = null;
-        while (!stack1.isEmpty() || !stack2.isEmpty() || carry != 0) {
-            int a = stack1.isEmpty() ? 0 : stack1.pop();
-            int b = stack2.isEmpty() ? 0 : stack2.pop();
-            int cur = a + b + carry;
-            //下一轮的进位
-            carry = cur / 10;
-            //取个位数
-            cur = cur % 10;
-            //当前节点
-            ListNode curnode = new ListNode(cur);
-            curnode.next = ans;
-            ans = curnode;
+        ListNode pre = new ListNode(0);
+        ListNode cur = pre;//保存上一个节点
+        while (l1 != null || l2 != null) {
+            int a = l1 == null ? 0 : l1.val;
+            int b = l2 == null ? 0 : l2.val;
+            int sum = a + b + carry;
+            carry = sum / 10; //获取进位
+            sum = sum % 10; // 获取本轮相加的值
+            cur.next = new ListNode(sum);
+            cur = cur.next;
+            if (l1 != null) {
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                l2 = l2.next;
+            }
         }
-        return ans;
+        if (carry > 0) {
+            cur.next = new ListNode(carry);
+        }
+        return pre.next;
     }
 
     //3,9,9,9,9,9,9,9,9,9
     public static void main(String[] args) {
-        ListNode l1 = new ListNode(3);
-        l1.next = new ListNode(9);
-        l1.next.next = new ListNode(9);
-        l1.next.next.next = new ListNode(9);
-        l1.next.next.next.next = new ListNode(9);
-        l1.next.next.next.next.next = new ListNode(9);
-        l1.next.next.next.next.next.next = new ListNode(9);
-        l1.next.next.next.next.next.next.next = new ListNode(9);
-        l1.next.next.next.next.next.next.next.next = new ListNode(9);
-        l1.next.next.next.next.next.next.next.next.next = new ListNode(9);
+        //test1
+/*        ListNode listNode1 = LinkListNodeUtils.get(new int[]{2, 4, 3});
+        ListNode listNode2 = LinkListNodeUtils.get(new int[]{5, 6, 4});
+        ListNode listNode = addTwoNumbers(listNode1, listNode2);
+        LinkListNodeUtils.print(listNode);*/
 
-        ListNode l2 = new ListNode(7);
-        System.out.println(addTwoNumbers(l1, l2));
+
+        ListNode listNode1 = LinkListNodeUtils.get(new int[]{2, 4, 9});
+        ListNode listNode2 = LinkListNodeUtils.get(new int[]{5, 6, 4, 9});
+        ListNode listNode = addTwoNumbers(listNode1, listNode2);
+        LinkListNodeUtils.print(listNode);
     }
 
 }
