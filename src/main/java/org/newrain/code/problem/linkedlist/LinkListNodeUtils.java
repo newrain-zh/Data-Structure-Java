@@ -23,7 +23,7 @@ public class LinkListNodeUtils {
 
     public static void print(ListNode listNode) {
         while (listNode != null) {
-            System.out.println(listNode.val);
+            System.out.print(listNode.val + ",");
             listNode = listNode.next;
         }
     }
