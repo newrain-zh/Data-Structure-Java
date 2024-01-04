@@ -11,7 +11,7 @@ public class ToLowerCase {
 
 
     public static String toLowerCase(String str) {
-        if (str == null || str.length() == 0) {
+        if (str == null || str.isEmpty()) {
             return str;
         }
         char[] r = new char[str.length()];
@@ -28,7 +28,7 @@ public class ToLowerCase {
 
 
     public static String toLowerCase1(String s) {
-        if (s == null || s.length() == 0) {
+        if (s == null || s.isEmpty()) {
             return s;
         }
         char[] r = new char[s.length()];
