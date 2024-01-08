@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * leetcode.88 合并两个有序数组
+ *
+ * <a href="https://leetcode.cn/problems/merge-sorted-array/description/">...</a>
+ *
  * @author newrain
  */
 public class Merge {
@@ -29,6 +33,5 @@ public class Merge {
         System.arraycopy(ints, 0, nums1, 0, nums1.length);
     }
 
-    public static void main(String[] args) {
-    }
+
 }
