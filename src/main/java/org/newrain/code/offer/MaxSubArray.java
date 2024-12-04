@@ -1,5 +1,9 @@
 package org.newrain.code.offer;
 
+
+/**
+ * @author NewRain
+ */
 public class MaxSubArray {
 
     public int maxSubArray(int[] nums) {
