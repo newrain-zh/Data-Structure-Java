@@ -4,6 +4,7 @@ public class CanJump {
 
     public static boolean canJump(int[] nums) {
         if (nums.length == 1) {
+
             return true;
         }
         int step = 0;
