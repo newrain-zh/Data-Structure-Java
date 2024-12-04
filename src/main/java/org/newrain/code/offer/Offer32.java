@@ -58,7 +58,7 @@ public class Offer32 {
                     deque.add(pop.right);
                 }
             }
-            if (arr.size() > 0) {
+            if (!arr.isEmpty()) {
                 list.add(arr);
             }
         }
