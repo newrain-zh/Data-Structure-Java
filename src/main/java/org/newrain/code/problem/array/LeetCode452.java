@@ -15,8 +15,9 @@ public class LeetCode452 {
      * 优先建议用 xend排序
      * <p>
      * 如果是按 xstart排序，也就是按左排序，那么遍历的时候发现无需射箭的时候，需要更新 全局的xend的最小值，
-     * 这样才能保证射箭的次数最少
-     *
+     * 也就是说能xend最小能覆盖的区间最多，这样才能保证射箭的次数最少。
+     * 如果是按 xend排序，那么xend已经从最小值往最大值排序，那么每次选择的箭位置都是最优的，
+     * <p>
      * 按 xstart 排序可行，但需在遍历时动态调整 current_end 为更小的 xend，确保箭覆盖最多的气球。
      * 按 xend 排序更优：天然保证每次选择的箭位置最优，代码更简洁。建议优先采用。
      *
@@ -80,11 +81,12 @@ public class LeetCode452 {
     }
 
     public static void main(String[] args) {
-        System.out.println(findMinArrowShots1(new int[][]{{10, 16}, {2, 8}, {1, 6}, {7, 12}})); // 2
+//        System.out.println(findMinArrowShots1(new int[][]{{10, 16}, {2, 8}, {1, 6}, {7, 12}})); // 2
 //        System.out.println(findMinArrowShots1(new int[][]{{1, 2}, {3, 4}, {5, 6}, {7, 8}})); // 4
-//        System.out.println(findMinArrowShots1(new int[][]{{1, 2}, {2, 3}, {3, 4}, {4, 5}})); // 2
-        int[][] arr = new int[][]{{10, 16}, {2, 8}, {1, 6}, {7, 12}};
-        Arrays.sort(arr, (a, b) -> Integer.compare(a[1], b[1]));
-        System.out.println(Arrays.deepToString(arr));
+        System.out.println(findMinArrowShots(new int[][]{{1, 2}, {2, 10}, {3, 4}, {4, 5}})); // 2
+        System.out.println(findMinArrowShots1(new int[][]{{1, 2}, {2, 10}, {3, 4}, {4, 5}})); // 2
+       /* int[][] arr = new int[][]{{7, 16}, {2, 8}, {1, 6}, {7, 12}};
+        Arrays.sort(arr, (a, b) -> Integer.compare(a[0], b[0]));
+        System.out.println(Arrays.deepToString(arr));*/
     }
 }
