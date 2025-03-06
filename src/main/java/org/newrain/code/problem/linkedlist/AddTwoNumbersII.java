@@ -13,7 +13,7 @@ public class AddTwoNumbersII {
      * 根据题意
      *
      * @param l1
-     * @param l2
+     * @param
      * @return
      */
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
