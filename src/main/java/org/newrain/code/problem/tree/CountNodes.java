@@ -1,5 +1,7 @@
 package org.newrain.code.problem.tree;
 
+import org.newrain.code.problem.common.TreeNode;
+
 /**
  * leetcode.222 完全二叉树的节点个数
  * 完全二叉树 的定义如下：在完全二叉树中，除了最底层节点可能没填满外，其余每层节点数都达到最大值，

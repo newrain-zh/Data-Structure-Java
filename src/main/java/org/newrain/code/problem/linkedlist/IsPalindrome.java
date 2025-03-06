@@ -1,5 +1,7 @@
 package org.newrain.code.problem.linkedlist;
 
+import org.newrain.code.problem.common.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

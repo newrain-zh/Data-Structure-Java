@@ -1,8 +1,8 @@
 package org.newrain.code.problem.recursive;
 
 
-import org.newrain.code.problem.linkedlist.LinkListNodeUtils;
-import org.newrain.code.problem.linkedlist.ListNode;
+import org.newrain.code.problem.common.ListNode;
+import org.newrain.code.problem.utils.LinkListNodeUtils;
 
 /**
  * <a href="https://leetcode.cn/problems/reverse-linked-list/description/">...</a>

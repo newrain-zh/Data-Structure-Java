@@ -1,4 +1,4 @@
-package org.newrain.code.problem.linkedlist;
+package org.newrain.code.problem.common;
 
 /**
  * @author NewRain

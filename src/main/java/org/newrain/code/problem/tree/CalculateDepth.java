@@ -1,5 +1,7 @@
 package org.newrain.code.problem.tree;
 
+import org.newrain.code.problem.common.TreeNode;
+
 /**
  * leetcode
  * @link <a href="https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof/description/">...</a>

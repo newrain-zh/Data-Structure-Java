@@ -1,8 +1,8 @@
 package org.newrain.code.offer;
 
 
-import org.newrain.code.problem.linkedlist.LinkListNodeUtils;
-import org.newrain.code.problem.linkedlist.ListNode;
+import org.newrain.code.problem.common.ListNode;
+import org.newrain.code.problem.utils.LinkListNodeUtils;
 
 
 /**

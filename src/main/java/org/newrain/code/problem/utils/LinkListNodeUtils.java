@@ -1,4 +1,6 @@
-package org.newrain.code.problem.linkedlist;
+package org.newrain.code.problem.utils;
+
+import org.newrain.code.problem.common.ListNode;
 
 /**
  * 生成链表 打印链表相关工具类

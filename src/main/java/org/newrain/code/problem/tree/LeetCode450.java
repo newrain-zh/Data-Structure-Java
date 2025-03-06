@@ -1,5 +1,4 @@
 package org.newrain.code.problem.tree;
-
 public class LeetCode450 {
     TreeNode prev;
     public TreeNode deleteNode(TreeNode root, int key) {

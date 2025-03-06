@@ -1,5 +1,7 @@
 package org.newrain.code.problem.tree;
 
+import org.newrain.code.problem.common.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;

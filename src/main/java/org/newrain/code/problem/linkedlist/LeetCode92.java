@@ -1,5 +1,7 @@
 package org.newrain.code.problem.linkedlist;
 
+import org.newrain.code.problem.common.ListNode;
+
 /**
  * 输入 1->2->3->4->5->null
  */

@@ -1,5 +1,7 @@
 package org.newrain.code.problem.linkedlist;
 
+import org.newrain.code.problem.common.ListNode;
+
 /**
  * leetcode.237 删除链表中的节点
  * 有一个单链表的 head，我们想删除它其中的一个节点 node。

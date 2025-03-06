@@ -1,6 +1,8 @@
 package org.newrain.code.problem.linkedlist;
 
 
+import org.newrain.code.problem.common.ListNode;
+
 /**
  * @author NewRain
  * @description 相交链表

@@ -1,5 +1,4 @@
 package org.newrain.code.problem.tree;
-
 import java.util.List;
 
 /**

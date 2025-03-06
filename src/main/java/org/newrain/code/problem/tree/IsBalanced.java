@@ -1,5 +1,5 @@
 package org.newrain.code.problem.tree;
-
+import org.newrain.code.problem.common.TreeNode;
 /**
  * leetcode
  * LCR 176. 判断是否为平衡二叉树

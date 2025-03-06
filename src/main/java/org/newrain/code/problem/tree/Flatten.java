@@ -1,5 +1,5 @@
 package org.newrain.code.problem.tree;
-
+import org.newrain.code.problem.common.TreeNode;
 
 /**
  * leetcode.114 二叉树展开为链表

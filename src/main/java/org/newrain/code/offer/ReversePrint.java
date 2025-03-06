@@ -1,6 +1,6 @@
 package org.newrain.code.offer;
 
-import org.newrain.code.problem.linkedlist.ListNode;
+import org.newrain.code.problem.common.ListNode;
 
 import java.util.Arrays;
 import java.util.Stack;
