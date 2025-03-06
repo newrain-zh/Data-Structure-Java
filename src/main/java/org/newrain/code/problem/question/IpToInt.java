@@ -1,4 +1,4 @@
-package org.newrain.code.problem.business;
+package org.newrain.code.problem.question;
 
 /**
  * 1.ip转换为整数存储
