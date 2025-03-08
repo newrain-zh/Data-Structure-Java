@@ -1,7 +1,7 @@
 package org.newrain.code.problem.recursive;
 
 import org.newrain.code.problem.common.TreeNode;
-import org.newrain.code.problem.tree.TreeNodeUtils;
+import org.newrain.code.problem.utils.TreeNodeUtils;
 
 /**
  * @author NewRain
