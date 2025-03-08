@@ -14,8 +14,11 @@ public class LCR052 {
 
     public TreeNode increasingBST(TreeNode root) {
         // 将 prev 重置到 dummyNode 虚拟头节点
+        // 这里要考虑引用传递的问题
         prev = dummyNode;
+        TreeNode test = prev;
         inOrder(root);
+        TreeNodeUtils.printTree(test);
         return dummyNode.right;
     }
 
