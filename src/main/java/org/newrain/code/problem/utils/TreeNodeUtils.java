@@ -1,4 +1,4 @@
-package org.newrain.code.problem.tree;
+package org.newrain.code.problem.utils;
 
 import org.newrain.code.problem.common.TreeNode;
 
@@ -9,27 +9,38 @@ import java.util.Queue;
 
 public class TreeNodeUtils {
 
-    public static TreeNode buildTree(Integer[] nums) {
-        if (nums == null || nums.length == 0) {
-            return null;
-        }
-        return buildTree(nums, 0);
-    }
 
-    private static TreeNode buildTree(Integer[] nums, int index) {
-        if (index >= nums.length || nums[index] == null) {
+    // 主构建方法（处理Integer数组）
+    public static TreeNode buildTree(Integer[] arr) {
+        if (arr == null || arr.length == 0 || arr[0] == null) {
             return null;
         }
 
-        // 创建当前节点
-        TreeNode node = new TreeNode(nums[index]);
+        TreeNode root = new TreeNode(arr[0]);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
 
-        // 递归构建左子树和右子树
-        node.left = buildTree(nums, 2 * index + 1);
-        node.right = buildTree(nums, 2 * index + 2);
+        int index = 1;
+        while (!queue.isEmpty() && index < arr.length) {
+            TreeNode current = queue.poll();
+            // 处理左子节点
+            if (arr[index] != null) {
+                current.left = new TreeNode(arr[index]);
+                queue.add(current.left);
+            }
+            index++;
 
-        return node;
+            // 处理右子节点
+            if (index < arr.length && arr[index] != null) {
+                current.right = new TreeNode(arr[index]);
+                queue.add(current.right);
+            }
+            index++;
+        }
+
+        return root;
     }
+
 
     public static void printTree(TreeNode root) {
         if (root == null) return;

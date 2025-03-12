@@ -35,6 +35,11 @@ public class LinkListNodeUtils {
         System.out.println();
     }
 
+    public static void print(String id, ListNode listNode) {
+        System.out.print(id + ":");
+        print(listNode);
+    }
+
     public static void main(String[] args) {
         get(new int[]{1, 2, 3});
     }
