@@ -1,4 +1,4 @@
-package org.newrain.code.offer;
+package org.newrain.problems.offer;
 
 public class CanJump {
 
