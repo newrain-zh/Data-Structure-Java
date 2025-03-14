@@ -1,7 +1,7 @@
 package org.newrain.example.recursion;
 
-import org.newrain.code.problem.common.TreeNode;
-import org.newrain.code.problem.utils.TreeNodeUtils;
+import org.newrain.problems.problem.common.TreeNode;
+import org.newrain.problems.problem.utils.TreeNodeUtils;
 
 /**
  * @author NewRain
