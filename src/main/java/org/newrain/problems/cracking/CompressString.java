@@ -1,4 +1,4 @@
-package org.newrain.code.cracking;
+package org.newrain.problems.cracking;
 
 /**
  * 字符串压缩。利用字符重复出现的次数，
