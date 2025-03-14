@@ -1,4 +1,4 @@
-package org.newrain.code.problem.string;
+package org.newrain.problems.problem.string;
 
 /**
  * leetcode.67 二进制求和
