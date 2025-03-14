@@ -1,4 +1,4 @@
-package org.newrain.code.problem.string;
+package org.newrain.problems.problem.string;
 
 /**
  * leetCode.1662 检查两个字符串数组是否相等
