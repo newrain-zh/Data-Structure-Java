@@ -1,4 +1,4 @@
-package org.newrain.code.problem.backtracking;
+package org.newrain.problems.problem.backtracking;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -47,7 +47,7 @@ public class Combine {
     }
 
     public static void main(String[] args) {
-        combine(5, 3);
+        System.out.println("result:" + combine(4, 2));
     }
 
 }
