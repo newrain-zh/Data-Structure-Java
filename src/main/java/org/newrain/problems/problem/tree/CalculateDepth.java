@@ -1,6 +1,6 @@
-package org.newrain.code.problem.tree;
+package org.newrain.problems.problem.tree;
 
-import org.newrain.code.problem.common.TreeNode;
+import org.newrain.problems.problem.common.TreeNode;
 
 /**
  * leetcode
