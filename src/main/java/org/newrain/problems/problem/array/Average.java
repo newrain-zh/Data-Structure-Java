@@ -1,4 +1,4 @@
-package org.newrain.code.problem.array;
+package org.newrain.problems.problem.array;
 
 /**
  * 去掉最低工资和最高工资后的工资平均值
