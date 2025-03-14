@@ -1,4 +1,4 @@
-package org.newrain.code.problem.array;
+package org.newrain.problems.problem.array;
 
 /**
  * leetcode.1909 删除一个元素使数组严格递增
