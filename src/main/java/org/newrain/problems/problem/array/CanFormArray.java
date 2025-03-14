@@ -1,4 +1,4 @@
-package org.newrain.code.problem.array;
+package org.newrain.problems.problem.array;
 
 
 import java.util.HashMap;
