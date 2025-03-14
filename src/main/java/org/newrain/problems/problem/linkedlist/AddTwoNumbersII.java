@@ -1,7 +1,7 @@
-package org.newrain.code.problem.linkedlist;
+package org.newrain.problems.problem.linkedlist;
 
-import org.newrain.code.problem.common.ListNode;
-import org.newrain.code.problem.utils.LinkListNodeUtils;
+import org.newrain.problems.problem.common.ListNode;
+import org.newrain.problems.problem.utils.LinkListNodeUtils;
 
 /**
  * leetcode.2 两数相加II
