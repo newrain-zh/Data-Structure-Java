@@ -1,4 +1,4 @@
-package org.newrain.code.offer;
+package org.newrain.problems.offer;
 
 
 import java.util.HashMap;
