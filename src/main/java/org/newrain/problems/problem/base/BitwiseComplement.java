@@ -1,4 +1,4 @@
-package org.newrain.code.problem.base;
+package org.newrain.problems.problem.base;
 
 /**
  * leetcode.1009 十进制整数的反码
