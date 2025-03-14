@@ -1,4 +1,4 @@
-package org.newrain.code.cracking;
+package org.newrain.problems.cracking;
 
 import java.util.HashSet;
 import java.util.Set;
