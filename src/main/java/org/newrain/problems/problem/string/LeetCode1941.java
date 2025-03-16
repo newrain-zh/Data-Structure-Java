@@ -1,7 +1,7 @@
 package org.newrain.problems.problem.string;
 
 /**
- * 1941.检查是否所有字符出现两次
+ * 1941.检查是否所有字符出现次数相同
  *
  * @author NewRain
  * <a href="https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences">...</a>
