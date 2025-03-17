@@ -7,6 +7,7 @@ import org.newrain.problems.problem.utils.TreeNodeUtils;
 /**
  * LeetCode 404. 左叶子之和
  * <a href="https://leetcode.cn/problems/sum-of-left-leaves/">...</a>
+ * 3️⃣种解法
  */
 public class LeetCode404 {
 
@@ -47,6 +48,24 @@ public class LeetCode404 {
             return sumOfLeftLeaves1(root.left) + sumOfLeftLeaves1(root.right);
         }
     }
+
+    public int sumOfLeftLeaves2(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int sum = 0;
+        if (root.left != null) {
+            TreeNode leftChild = root.left;
+            if (leftChild.left == null && leftChild.right == null) {
+                sum += leftChild.val;
+            } else {
+                sum += sumOfLeftLeaves2(leftChild);
+            }
+        }
+        sum += sumOfLeftLeaves2(root.right);
+        return sum;
+    }
+
 
     public static void testCase1() {
         TreeNode treeNode = TreeNodeUtils.buildTree(new Integer[]{3, 9, 20, null, null, 15, 7});
