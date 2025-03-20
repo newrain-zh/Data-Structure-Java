@@ -42,7 +42,6 @@ public class LeetCode452 {
             } else {
                 rightPoint = Math.min(rightPoint, currentRightPoint); // 更新全局的右端点
             }
-
         }
         return arrowCount;
     }
