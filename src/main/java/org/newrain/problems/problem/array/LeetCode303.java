@@ -3,31 +3,28 @@ package org.newrain.problems.problem.array;
 import java.util.Arrays;
 
 /**
- * 303. 区域和检索 - 数组不可变
+ * LeetCode.303 区域和检索 - 数组不可变
  */
 public class LeetCode303 {
-    int[] sums;
+
+    int[] prefixSum;
 
 
     public LeetCode303(int[] nums) {
-        sums = new int[nums.length + 1];
+        prefixSum = new int[nums.length + 1];
         for (int i = 0; i < nums.length; i++) {
-            sums[i + 1] = sums[i] + nums[i]; // 提前计算好每一位的前缀和
+            prefixSum[i + 1] = prefixSum[i] + nums[i]; // 提前计算好每一位的前缀和
         }
-        System.out.println(Arrays.toString(sums));
+        System.out.println(Arrays.toString(prefixSum));
     }
 
     /**
-     * 返回数组 nums 中索引 left 和 right 之间的元素的 总和 ，
-     * 包含 left 和 right 两点（也就是 nums[left] + nums[left + 1] + ... + nums[right] )
-     *     -2,  0, 3, -5, 2, -1
-     * [0, -2, -2, 1, -4, -2, -3]
-     * @param left
-     * @param right
-     * @return
+     * •	prefixSum[right + 1] 代表 nums[0] 到 nums[right] 的和。
+     * •	prefixSum[left] 代表 nums[0] 到 nums[left-1] 的和。
+     * •	两者相减，即得到 nums[left] 到 nums[right] 的总和。
      */
     public int sumRange(int left, int right) {
-        return sums[right + 1] - sums[left];
+        return prefixSum[right + 1] - prefixSum[left];
     }
 
     public static void main(String[] args) {
