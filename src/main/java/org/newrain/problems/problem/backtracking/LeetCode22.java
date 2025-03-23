@@ -17,13 +17,17 @@ public class LeetCode22 {
     }
 
     public void gen(int n, String path, List<String> res, int open, int close) {
-        if (open > n || close > open) {
+        if (open > n || close > open) { // 这里剪枝 就是避免不要的计算
             return;
         }
-        if (path.length() == 2 * n) {
+        if (path.length() == 2 * n) { // 总的字符串长度为 2n 长度到 2n 则说明可以结束
             res.add(path);
             return;
         }
+        // open = ( 左括号的数量  close = ) 右括号的数量
+        // open 和 close 数量只能为 n 才能组成合法的序列
+        // close > open 说明 已经无法组成合法序列
+        // 这里的合法序列有两个条件要满足 1.左右括号数量为 n 2.不能以)为开头
         gen(n, path + "(", res, open + 1, close);
         gen(n, path + ")", res, open, close + 1);
     }
