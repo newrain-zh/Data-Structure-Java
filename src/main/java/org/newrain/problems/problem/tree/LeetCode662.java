@@ -15,6 +15,7 @@ public class LeetCode662 {
      * 给每个节点标记上编号
      * 根据编号来计算每层的宽度
      * 二叉树每层的个数都是乘以 2 的速度增长的
+     * TODO 还有更优解
      *
      * @param root
      * @return
@@ -66,6 +67,7 @@ public class LeetCode662 {
         for (int i = 0; i < leftmost.size(); i++) {
             maxWidth = Math.max(maxWidth, rightmost.get(i) - leftmost.get(i) + 1);
         }
+        return maxWidth;
     }
 
     public void dfs(TreeNode treeNode, int depth, int pos) {
