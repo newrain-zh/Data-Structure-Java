@@ -19,7 +19,7 @@ public class LeetCode216 {
         this.k      = k;
         this.target = target;
         int[] arr = new int[9];
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i < 10; i++) { // 构建数字 1-9
             arr[i - 1] = i;
         }
         backtrack(arr, 0, 0, new ArrayList<>());
@@ -27,12 +27,14 @@ public class LeetCode216 {
     }
 
     public void backtrack(int[] arr, int start, int sum, List<Integer> path) {
+        System.out.println("f(" + start + ")  " + "sum=" + sum);
         if (path.size() == k && sum == target) {
             ans.add(new ArrayList<>(path));
             return;
         }
         for (int i = start; i < arr.length; i++) {
             if (sum + arr[i] > target) { // 剪枝
+
                 break;
             }
             path.add(arr[i]);
@@ -42,9 +44,9 @@ public class LeetCode216 {
     }
 
     public static void main(String[] args) {
-//        List<List<Integer>> list = new LeetCode216().combinationSum3(3, 7); // [1,2,4]
+        List<List<Integer>> list = new LeetCode216().combinationSum3(3, 7); // [1,2,4]
 //        List<List<Integer>> list = new LeetCode216().combinationSum3(3, 9); // [1,2,6] [1,3,5] [2,3,4]
-        List<List<Integer>> list = new LeetCode216().combinationSum3(4, 1); // [1,2,6] [1,3,5] [2,3,4]
+//        List<List<Integer>> list = new LeetCode216().combinationSum3(4, 1); // [1,2,6] [1,3,5] [2,3,4]
         list.forEach(v -> System.out.println(Arrays.toString(v.toArray())));
     }
 }
