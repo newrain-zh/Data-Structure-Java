@@ -29,9 +29,9 @@ public class LeetCode52 {
             return;
         }
         for (int i = 0; i < chessboard.length; i++) {
-            if (usedCols[i]) {
+            /*if (usedCols[i]) {
                 continue;
-            }
+            }*/
             if (isValid(chessboard, row, i, n)) {
                 chessboard[row][i] = 'Q';
                 usedCols[i]        = true;
