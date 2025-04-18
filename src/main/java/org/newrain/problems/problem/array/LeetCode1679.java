@@ -10,7 +10,7 @@ public class LeetCode1679 {
 
 
     /**
-     * 其实就是在数组找到 x+y = k 中 x和 y一共可以有多少队的问题
+     * 其实就是在数组找到 x+y = k 中 x和 y一共可以有多少对的问题
      *
      * @param nums
      * @param k
