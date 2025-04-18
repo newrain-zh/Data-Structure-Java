@@ -20,25 +20,27 @@ public class Partition {
      * @return
      */
     public static ListNode partition(ListNode head, int x) {
-        ListNode small = new ListNode(0);
-        ListNode smallHead = small;
+        ListNode smallDummy = new ListNode(0); // 小于 x 的链表虚拟头
+        ListNode largeDummy = new ListNode(0); // 大于等于 x 的链表虚拟头
 
-        ListNode large = new ListNode(0);
-        ListNode largeHead = large;
+        ListNode small = smallDummy;
+        ListNode large = largeDummy;
 
         while (head != null) {
-            if (head.val > x) {
-                large.next = head;
-                large = large.next;
-            } else {
+            if (head.val < x) {
                 small.next = head;
                 small = small.next;
+            } else {
+                large.next = head;
+                large = large.next;
             }
             head = head.next;
         }
-        large.next = null;
-        small.next = largeHead.next;
-        return smallHead.next;
+
+        large.next = null; // 断开 large 链表尾部，避免可能成环
+        small.next = largeDummy.next; // 拼接两个链表
+
+        return smallDummy.next;
     }
 
     public static void main(String[] args) {
