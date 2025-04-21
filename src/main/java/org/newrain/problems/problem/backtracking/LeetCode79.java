@@ -1,11 +1,65 @@
 package org.newrain.problems.problem.backtracking;
 
+
 /**
  * 单词搜索
  */
 public class LeetCode79 {
 
-    private String  word;
+    private String word;
+
+
+    public boolean exist(char[][] board, String word) {
+        this.word = word;
+        if (board == null || board.length == 0 || word == null || word.isEmpty()) {
+            return false;
+        }
+        // 判断是否符合条件
+        int len = board.length;
+
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                if (board[i][j] == word.charAt(0)) {
+                    if (dfs(board, i, j, 0)) { // 寻找开始元素
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+
+    }
+
+    /**
+     * @param arr
+     * @param col   列
+     * @param row   行
+     * @param index
+     * @return
+     */
+    private boolean dfs(char[][] arr, int row, int col, int index) {
+        if (index == word.length()) {
+            return true;
+        }
+        if (row < 0 || row >= arr.length || col < 0 || col >= arr[0].length || arr[row][col] != word.charAt(index)) {
+            return false;
+        }
+        // 做标记，避免重复使用
+        char temp = arr[row][col];
+        arr[row][col] = '#';
+        boolean found = dfs(arr, row - 1, col, index + 1) || dfs(arr, row + 1, col, index + 1) || dfs(arr, row, col - 1, index + 1) || dfs(arr, row, col + 1, index + 1); // 右
+        arr[row][col] = temp;
+        return found;
+
+    }
+
+    public static void main(String[] args) {
+        char[][] chars = new char[][]{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
+        System.out.println(new LeetCode79().exist(chars, "ABCCED"));
+    }
+
+
     private boolean ans;
     private int     m;
     private int     n;
@@ -17,7 +71,7 @@ public class LeetCode79 {
      * @param word
      * @return
      */
-    public boolean exist(char[][] board, String word) {
+    public boolean exist1(char[][] board, String word) {
         this.word  = word;
         this.m     = board.length;
         this.n     = board[0].length;
@@ -57,7 +111,7 @@ public class LeetCode79 {
         }
     }
 
-    public boolean exist1(char[][] board, String word) {
+    public boolean exist2(char[][] board, String word) {
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board.length; j++) {
                 char[] array = word.toCharArray();
@@ -92,16 +146,5 @@ public class LeetCode79 {
         }
         board[row][col] = original;
         return false;
-    }
-
-
-    public static void main(String[] args) {
-        char[][] board = new char[][]{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
-        System.out.println(new LeetCode79().exist1(board, "ABCCED"));
-//        StringBuilder path = new StringBuilder("ABCCE");
-//        path = new StringBuilder(path.substring(0, path.length() - 1));
-//        System.out.println(path.toString());
-
-
     }
 }
