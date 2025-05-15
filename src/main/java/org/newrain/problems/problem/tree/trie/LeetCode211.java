@@ -1,4 +1,4 @@
-package org.newrain.problems.problem.tree;
+package org.newrain.problems.problem.tree.trie;
 
 /**
  * LeetCode.211 添加与搜索单词 - 数据结构设计
@@ -53,7 +53,6 @@ public class LeetCode211 {
                 return searchInNode(word, pos + 1, node.childNode[index]);
             }
         }
-
     }
 
     static class WordNode {

@@ -1,4 +1,4 @@
-package org.newrain.problems.problem.tree;
+package org.newrain.problems.problem.tree.trie;
 
 import java.util.HashMap;
 import java.util.Map;
