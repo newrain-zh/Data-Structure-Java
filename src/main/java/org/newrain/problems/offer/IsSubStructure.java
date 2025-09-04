@@ -1,5 +1,7 @@
 package org.newrain.problems.offer;
 
+import org.newrain.problems.problem.common.TreeNode;
+
 public class IsSubStructure {
 
     public boolean isSubStructure(TreeNode A, TreeNode B) {
@@ -15,13 +17,5 @@ public class IsSubStructure {
     }
 
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
 
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

@@ -1,5 +1,7 @@
 package org.newrain.problems.problem.tree;
 
+import org.newrain.problems.problem.common.TreeNode;
+
 public class LeetCode98 {
 
     static int preVal = Integer.MIN_VALUE;
@@ -18,23 +20,4 @@ public class LeetCode98 {
         return isValidBST(root.right);
     }
 
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 }

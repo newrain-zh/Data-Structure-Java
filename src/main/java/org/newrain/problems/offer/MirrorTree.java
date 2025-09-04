@@ -1,6 +1,8 @@
 package org.newrain.problems.offer;
 
 
+import org.newrain.problems.problem.common.TreeNode;
+
 import java.util.Stack;
 
 public class MirrorTree {
@@ -24,16 +26,6 @@ public class MirrorTree {
             pop.left = right;
         }
         return root;
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 
 

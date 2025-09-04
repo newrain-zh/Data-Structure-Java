@@ -1,5 +1,7 @@
 package org.newrain.problems.offer;
 
+import org.newrain.problems.problem.common.TreeNode;
+
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -56,13 +58,5 @@ public class MaxDepth {
     }
 
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
 
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

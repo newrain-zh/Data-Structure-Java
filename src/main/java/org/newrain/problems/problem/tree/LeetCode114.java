@@ -1,5 +1,7 @@
 package org.newrain.problems.problem.tree;
 
+import org.newrain.problems.problem.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,22 +46,4 @@ public class LeetCode114 {
     }
 
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 }

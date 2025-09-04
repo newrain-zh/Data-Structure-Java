@@ -1,5 +1,7 @@
 package org.newrain.problems.offer;
 
+import org.newrain.problems.problem.common.TreeNode;
+
 import java.util.*;
 
 public class Offer32 {
@@ -68,13 +70,4 @@ public class Offer32 {
     public static void main(String[] args) {
     }
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }
