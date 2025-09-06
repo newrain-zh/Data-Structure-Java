@@ -21,7 +21,7 @@ public class LCR052Test {
     }
 
 
-    /**
+    /*
      * 普通 TreeNode 参数的问题 public void inOrder(TreeNode node, TreeNode prev)
      * 传递的是当前引用的 副本，方法内修改 prev = node 只是改变副本的指向
      * 递归返回上层时，外部的 prev 仍保持原来的引用

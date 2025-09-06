@@ -24,8 +24,9 @@ public class StaticLinkedList<T> {
     private int setDefaultSize = 10;
 
 
+    @SuppressWarnings("unchecked")
     public StaticLinkedList() {
-        element = new Element[setDefaultSize];
+        element = (Element<T>[]) new Element[setDefaultSize];
         for (int i = 0; i < size; i++) {
             element[i] = new Element<>(null, -1);
         }
@@ -41,8 +42,9 @@ public class StaticLinkedList<T> {
      *
      * @param size 自定义数组容量
      */
+    @SuppressWarnings("unchecked")
     public StaticLinkedList(int size) {
-        element = new Element[size];
+        element = (Element<T>[]) new Element[size];
         for (int i = 0; i < size; i++) {
             element[i] = new Element<>(null, -1);
         }
@@ -108,9 +110,10 @@ public class StaticLinkedList<T> {
     /**
      * 扩容 原先的2倍
      */
+    @SuppressWarnings("unchecked")
     private void expand() {
         Element<T>[] oldElements = element;
-        Element[] newElements = new Element[element.length * 2];
+        Element<T>[] newElements = (Element<T>[]) new Element[element.length * 2];
         for (int i = 0; i < oldElements.length; i++) {
             newElements[i] = oldElements[i];
         }

@@ -19,7 +19,7 @@ public class BitSetExample {
     public void test() {
         Random random = new Random();
 
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>(10000000);
         for (int i = 0; i < 10000000; i++) {
             int randomResult = random.nextInt(100000000);
             list.add(randomResult);
